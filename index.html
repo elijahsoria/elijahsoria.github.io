@@ -1,33 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Elijah Soria</title>
 <style>
 #header{
 	padding:10px
+}
+.elijahimage {
+  height: 85vh;
+  width: auto;
+}
+.table-container {
+   display: flex;
+   flex-wrap: wrap-reverse;
+   justify-content: center;
+   align-items: center;
+}
+.table-content {
+   padding: 30px;
+}
+body {
+   font-size: 23px;
+}
+@media (max-width: 1080px) {
+  .elijahimage {
+   height: 65vh;
+  }
+  .table-content {
+   padding: 25px;
+  }
+}
+@media (max-width: 450px) {
+  .elijahimage {
+   height: 55vh;
+  }
+  body {
+   font-size: 5vw;
+  }
+  .table-content {
+   padding: 5vw;
+  }
 }
 </style>
 </head>
 <body>
 <div id="header">
 <center>
-<table cellpadding="30">
-   <tr>
-      <td>
-         <h2>Elijah Soria</h2>
-         <p>
-            Oakland, CA<br>
-            <i>elijahsoria@gmail.com</i><br>
-            <a href="https://www.linkedin.com/in/elijah-soria-a63859a4/">LinkedIn</a><br>
-            <a href="https://github.com/elijahsoria">Github</a><br>
-            <a href="ElijahSoriaResume.pdf">Resume</a>
-         </p>
-      </td>
-      <td>
-         <img src="elijah.jpg" alt="Elijah Soria" width="217" height="326">
-      </td>
-   </tr>
-</table>
+<div class="table-container">
+   <div class="table-content">
+      <h2>Elijah Soria</h2>
+      <p>
+         Oakland, CA<br>
+         <i>elijahsoria@gmail.com</i><br>
+         <a href="https://www.linkedin.com/in/elijah-soria-a63859a4/">LinkedIn</a><br>
+         <a href="https://github.com/elijahsoria">Github</a><br>
+         <a href="ElijahSoriaResume.pdf">Resume</a>
+      </p>
+   </div>
+   <div class="table-content">
+       <img src="elijah.jpg" alt="Elijah Soria" class="elijahimage" width="434" height="652">
+   </div>
+</div>
 </center>
 <!-- TODO: Update info below. -->
 <!-- <hr>
