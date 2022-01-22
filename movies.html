@@ -1372,7 +1372,7 @@ const mvlist = [
 ];
 
 function createMovieList() {
-    let mvlist = document.getElementById('movie-list');
+    let listdiv = document.getElementById('movie-list');
     for (const mv in mvlist) {
 	let mvDiv = document.createElement("div");
 	mvDiv.classList.add("r");
@@ -1384,7 +1384,7 @@ function createMovieList() {
 	rtg.classList.add("c");
 	mvDiv.appendChild(name);
 	mvDiv.appendChild(rtg);
-	mvlist.appendChild(mvDiv);     
+	listdiv.appendChild(mvDiv);     
     }
 };
 createMovieList();
