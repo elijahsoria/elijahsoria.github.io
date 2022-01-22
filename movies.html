@@ -1376,9 +1376,11 @@ function createMovieList() {
     for (const mv in mvlist) {
 	let mvDiv = document.createElement("div");
 	mvDiv.classList.add("r");
-	let name = document.createTextNode(mv[0]);
+	let name = document.createElement("div");
+	name.innerHTML = mv[0];
 	name.classList.add("c");
-	let rtg = document.createTextNode(mv[0]);
+	let rtg = document.createElement("div"); 
+	rtg.innerHTML = mv[1];
 	rtg.classList.add("c");
 	mvDiv.appendChild(name);
 	mvDiv.appendChild(rtg);
