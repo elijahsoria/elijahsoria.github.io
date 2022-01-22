@@ -1373,14 +1373,14 @@ const mvlist = [
 
 function createMovieList() {
     let listdiv = document.getElementById('movie-list');
-    for (const mv in mvlist) {
+    for (let i = 0; i < mvlist.length; i++) {
 	let mvDiv = document.createElement("div");
 	mvDiv.classList.add("r");
 	let name = document.createElement("div");
-	name.innerHTML = mv[0];
+	name.innerHTML = mvlist[i][0];
 	name.classList.add("c");
 	let rtg = document.createElement("div"); 
-	rtg.innerHTML = mv[1];
+	rtg.innerHTML = mvlist[i][1];
 	rtg.classList.add("c");
 	mvDiv.appendChild(name);
 	mvDiv.appendChild(rtg);
