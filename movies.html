@@ -4,674 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Elijah Soria -- Movie Ratings</title>
 <link rel="icon" type="image/png" href="gd_favi.ico">
-<script>
-const mvlist = [
-    [
-        "Fargo",
-        "4.5"
-    ],
-    [
-        "My Own Private Idaho",
-        "2.5"
-    ],
-    [
-        "Snowpiercer",
-        "3"
-    ],
-    [
-        "The Talented Mr. Ripley",
-        "4"
-    ],
-    [
-        "Blood Simple",
-        "1.5"
-    ],
-    [
-        "Mother",
-        "4"
-    ],
-    [
-        "The Wailing",
-        "5"
-    ],
-    [
-        "I Saw the Devil",
-        "1"
-    ],
-    [
-        "The Witch",
-        "2.5"
-    ],
-    [
-        "Rec",
-        "4"
-    ],
-    [
-        "Cabin in the Woods",
-        "3.5"
-    ],
-    [
-        "The Skeleton Twins",
-        "2"
-    ],
-    [
-        "Mulholland Drive",
-        "3.5"
-    ],
-    [
-        "Blue Velvet",
-        "4"
-    ],
-    [
-        "Us",
-        "5"
-    ],
-    [
-        "Star Wars: Rogue One",
-        "4.5"
-    ],
-    [
-        "Drive",
-        "2"
-    ],
-    [
-        "Half Nelson",
-        "3"
-    ],
-    [
-        "Big Lebowski",
-        "5"
-    ],
-    [
-        "Elephant",
-        "3"
-    ],
-    [
-        "Bully",
-        "2.5"
-    ],
-    [
-        "Mid 90's",
-        "3.5"
-    ],
-    [
-        "You Were Never Really Here",
-        "2"
-    ],
-    [
-        "Ratcatcher",
-        "3"
-    ],
-    [
-        "The Meyerowitz Stories",
-        "3.5"
-    ],
-    [
-        "Punch Drunk Love",
-        "4"
-    ],
-    [
-        "Chef",
-        "3.5"
-    ],
-    [
-        "Alien",
-        "4.5"
-    ],
-    [
-        "The Killing of a Sacred Deer",
-        "3.5"
-    ],
-    [
-        "A Serious Man",
-        "4"
-    ],
-    [
-        "There Will Be Blood",
-        "4"
-    ],
-    [
-        "3:10 to Yuma",
-        "4"
-    ],
-    [
-        "The Sisters Brothers",
-        "5"
-    ],
-    [
-        "Hell or High Water",
-        "4"
-    ],
-    [
-        "Requiem for the American Dream",
-        "4"
-    ],
-    [
-        "Free Solo",
-        "3.5"
-    ],
-    [
-        "Minimalism",
-        "2"
-    ],
-    [
-        "American Factory",
-        "4.5"
-    ],
-    [
-        "Ramen Heads",
-        "3.5"
-    ],
-    [
-        "The Shoplifters",
-        "3.5"
-    ],
-    [
-        "Up in the Air",
-        "4"
-    ],
-    [
-        "Once Were Brothers",
-        "4.5"
-    ],
-    [
-        "Woodstock (2019)",
-        "2.5"
-    ],
-    [
-        "Ladybird",
-        "4"
-    ],
-    [
-        "Raging Bull",
-        "4"
-    ],
-    [
-        "Prisoners",
-        "4.5"
-    ],
-    [
-        "Incendies",
-        "3"
-    ],
-    [
-        "Under the Skin",
-        "2"
-    ],
-    [
-        "Spotlight",
-        "4.5"
-    ],
-    [
-        "Knives Out",
-        "4.5"
-    ],
-    [
-        "Synecdoche; New York",
-        "2.5"
-    ],
-    [
-        "The Wrestler",
-        "5"
-    ],
-    [
-        "My Cousin Vinny",
-        "3"
-    ],
-    [
-        "The Godfather",
-        "5"
-    ],
-    [
-        "Unforgiven",
-        "3.5"
-    ],
-    [
-        "Capote",
-        "4.5"
-    ],
-    [
-        "Raising Arizona",
-        "4"
-    ],
-    [
-        "Mandy",
-        "4"
-    ],
-    [
-        "Host (2020)",
-        "3.5"
-    ],
-    [
-        "Safety Not Guaranteed",
-        "2.5"
-    ],
-    [
-        "Borat Subsequent Moviefilm",
-        "4"
-    ],
-    [
-        "Misery",
-        "4"
-    ],
-    [
-        "Jacob's Ladder",
-        "3.5"
-    ],
-    [
-        "Hereditary",
-        "4.5"
-    ],
-    [
-        "Whiplash",
-        "4.5"
-    ],
-    [
-        "Good Time",
-        "4"
-    ],
-    [
-        "Cape Fear (1991)",
-        "4"
-    ],
-    [
-        "The Social Dilemma",
-        "3.5"
-    ],
-    [
-        "The Untouchables",
-        "3"
-    ],
-    [
-        "The Shining",
-        "5"
-    ],
-    [
-        "Moneyball",
-        "4"
-    ],
-    [
-        "Spiderman: Into the Spiderverse",
-        "4.5"
-    ],
-    [
-        "Full Metal Jacket",
-        "5"
-    ],
-    [
-        "Raw",
-        "2.5"
-    ],
-    [
-        "Intolerable Curelty",
-        "3.5"
-    ],
-    [
-        "Nocturnal Animals",
-        "3.5"
-    ],
-    [
-        "When Harry Met Sally",
-        "4"
-    ],
-    [
-        "Magnolia",
-        "4"
-    ],
-    [
-        "Before Sunset",
-        "3.5"
-    ],
-    [
-        "Fitzcarraldo",
-        "3.5"
-    ],
-    [
-        "Godzilla: King of Monsters",
-        "1.5"
-    ],
-    [
-        "Eyes Wide Shut",
-        "5"
-    ],
-    [
-        "The Dawn Wall",
-        "3.5"
-    ],
-    [
-        "The Men Who Stare at Goats",
-        "2.5"
-    ],
-    [
-        "The Host (2007)",
-        "4"
-    ],
-    [
-        "Enough Said",
-        "3"
-    ],
-    [
-        "Closer",
-        "3.5"
-    ],
-    [
-        "Mean Streets",
-        "5"
-    ],
-    [
-        "Judas and the Black Messiah",
-        "4.5"
-    ],
-    [
-        "Nebraska",
-        "4.5"
-    ],
-    [
-        "Koynanastashi",
-        "3"
-    ],
-    [
-        "Before Sunrise",
-        "3.5"
-    ],
-    [
-        "Cyrus",
-        "3"
-    ],
-    [
-        "Another Round",
-        "4"
-    ],
-    [
-        "Foxcatcher",
-        "3.5"
-    ],
-    [
-        "Bye Lenin!",
-        "3"
-    ],
-    [
-        "Bad Trip",
-        "5"
-    ],
-    [
-        "Godzilla vs. King Kong",
-        "4"
-    ],
-    [
-        "Lights Out",
-        "2.5"
-    ],
-    [
-        "Swingers",
-        "3"
-    ],
-    [
-        "Platoon",
-        "3.5"
-    ],
-    [
-        "Donut King",
-        "4.5"
-    ],
-    [
-        "War Dogs",
-        "4"
-    ],
-    [
-        "Little Miss Sunshine",
-        "5"
-    ],
-    [
-        "The Descendents",
-        "4"
-    ],
-    [
-        "The Vigil",
-        "4"
-    ],
-    [
-        "Forgetting Sarah Marshall",
-        "3.5"
-    ],
-    [
-        "An American Pickle",
-        "3"
-    ],
-    [
-        "Badlands",
-        "4"
-    ],
-    [
-        "A Quiet Place: Part Two",
-        "4.5"
-    ],
-    [
-        "Walk Hard",
-        "4"
-    ],
-    [
-        "Summer of Love",
-        "5"
-    ],
-    [
-        "No Sudden Move",
-        "3.5"
-    ],
-    [
-        "Talladega Nights: The Ballad of Ricky Bobby",
-        "4"
-    ],
-    [
-        "The Player",
-        "4"
-    ],
-    [
-        "Pig",
-        "3"
-    ],
-    [
-        "Darkest Hour",
-        "3.5"
-    ],
-    [
-        "Bicycle Thieves",
-        "4"
-    ],
-    [
-        "Stranger Than Paradise",
-        "4"
-    ],
-    [
-        "They Shall Not Grow Old",
-        "5"
-    ],
-    [
-        "Nomadland",
-        "3.5"
-    ],
-    [
-        "Blindspotting",
-        "4.5"
-    ],
-    [
-        "Arrival",
-        "5"
-    ],
-    [
-        "Blackkklansman",
-        "4"
-    ],
-    [
-        "Idiocracy",
-        "4.5"
-    ],
-    [
-        "Lars and the Real Girl",
-        "4"
-    ],
-    [
-        "I Don't Feel at Home in This World Anymore",
-        "3"
-    ],
-    [
-        "Zodiac",
-        "4"
-    ],
-    [
-        "The Last Blockbuster",
-        "3.5"
-    ],
-    [
-        "Blue Bayou",
-        "4"
-    ],
-    [
-        "1917",
-        "5"
-    ],
-    [
-        "The Many Saints of Newark",
-        "3"
-    ],
-    [
-        "Lamb",
-        "3.5"
-    ],
-    [
-        "The Taking of Deborah Logan",
-        "3.5"
-    ],
-    [
-        "No Time to Die",
-        "3.5"
-    ],
-    [
-        "The Nice Guys",
-        "4.5"
-    ],
-    [
-        "The French Dispatch",
-        "3"
-    ],
-    [
-        "Spencer",
-        "3.5"
-    ],
-    [
-        "Tommy Boy",
-        "4.5"
-    ],
-    [
-        "Killing Them Softly",
-        "3.5"
-    ],
-    [
-        "Dune",
-        "4.5"
-    ],
-    [
-        "Dark Waters",
-        "4"
-    ],
-    [
-        "The Machinist",
-        "4"
-    ],
-    [
-        "Everything Must Go",
-        "1.5"
-    ],
-    [
-        "Cmon Cmon",
-        "3"
-    ],
-    [
-        "Thelonious Monk: Straight No Chaser",
-        "3.5"
-    ],
-    [
-        "The Power of the Dog",
-        "4"
-    ],
-    [
-        "Life",
-        "4"
-    ],
-    [
-        "Hail, Caeser!",
-        "4.5"
-    ],
-    [
-        "My Idiot Brother",
-        "2.5"
-    ],
-    [
-        "Spiderman: No Way Home",
-        "4"
-    ],
-    [
-        "Licorice Pizza",
-        "4.5"
-    ],
-    [
-        "The Tragedy of Macbeth",
-        "3.5"
-    ],
-    [
-        "Red Rocket",
-        "4"
-    ],
-    [
-        "The Green Knight",
-        "3"
-    ],
-    [
-        "Hard Eight",
-        "4"
-    ],
-    [
-        "In the Heat of the Night",
-        "4.5"
-    ],
-    [
-        "The Man Who Wasn't There",
-        "4"
-    ],
-    [
-        "The Cooler",
-        "3"
-    ],
-    [
-        "In Bruges",
-        "3"
-    ],
-    [
-        "Game Show",
-        "3.5"
-    ],
-//     [
-//         "",
-//         ""
-//     ]
-];
-
-function createMovieList() {
-    let mvlist = document.getElementById('movie-list');
-    for (const mv in mvlist) {
-	let mvDiv = document.createElement("div");
-	mvDiv.classList.add("r");
-	let name = document.createTextNode(mv[0]);
-	name.classList.add("c");
-	let rtg = document.createTextNode(mv[0]);
-	rtg.classList.add("c");
-	mvDiv.appendChild(name);
-	mvDiv.appendChild(rtg);
-	mvlist.appendChild(mvDiv);     
-    }
-};
-createMovieList();
-</script>
 <style>
 #header{
 	padding:10px
@@ -1387,6 +719,674 @@ a:active {
    </div>
 -->
 	</div>
+	<script>
+const mvlist = [
+    [
+        "Fargo",
+        "4.5"
+    ],
+    [
+        "My Own Private Idaho",
+        "2.5"
+    ],
+    [
+        "Snowpiercer",
+        "3"
+    ],
+    [
+        "The Talented Mr. Ripley",
+        "4"
+    ],
+    [
+        "Blood Simple",
+        "1.5"
+    ],
+    [
+        "Mother",
+        "4"
+    ],
+    [
+        "The Wailing",
+        "5"
+    ],
+    [
+        "I Saw the Devil",
+        "1"
+    ],
+    [
+        "The Witch",
+        "2.5"
+    ],
+    [
+        "Rec",
+        "4"
+    ],
+    [
+        "Cabin in the Woods",
+        "3.5"
+    ],
+    [
+        "The Skeleton Twins",
+        "2"
+    ],
+    [
+        "Mulholland Drive",
+        "3.5"
+    ],
+    [
+        "Blue Velvet",
+        "4"
+    ],
+    [
+        "Us",
+        "5"
+    ],
+    [
+        "Star Wars: Rogue One",
+        "4.5"
+    ],
+    [
+        "Drive",
+        "2"
+    ],
+    [
+        "Half Nelson",
+        "3"
+    ],
+    [
+        "Big Lebowski",
+        "5"
+    ],
+    [
+        "Elephant",
+        "3"
+    ],
+    [
+        "Bully",
+        "2.5"
+    ],
+    [
+        "Mid 90's",
+        "3.5"
+    ],
+    [
+        "You Were Never Really Here",
+        "2"
+    ],
+    [
+        "Ratcatcher",
+        "3"
+    ],
+    [
+        "The Meyerowitz Stories",
+        "3.5"
+    ],
+    [
+        "Punch Drunk Love",
+        "4"
+    ],
+    [
+        "Chef",
+        "3.5"
+    ],
+    [
+        "Alien",
+        "4.5"
+    ],
+    [
+        "The Killing of a Sacred Deer",
+        "3.5"
+    ],
+    [
+        "A Serious Man",
+        "4"
+    ],
+    [
+        "There Will Be Blood",
+        "4"
+    ],
+    [
+        "3:10 to Yuma",
+        "4"
+    ],
+    [
+        "The Sisters Brothers",
+        "5"
+    ],
+    [
+        "Hell or High Water",
+        "4"
+    ],
+    [
+        "Requiem for the American Dream",
+        "4"
+    ],
+    [
+        "Free Solo",
+        "3.5"
+    ],
+    [
+        "Minimalism",
+        "2"
+    ],
+    [
+        "American Factory",
+        "4.5"
+    ],
+    [
+        "Ramen Heads",
+        "3.5"
+    ],
+    [
+        "The Shoplifters",
+        "3.5"
+    ],
+    [
+        "Up in the Air",
+        "4"
+    ],
+    [
+        "Once Were Brothers",
+        "4.5"
+    ],
+    [
+        "Woodstock (2019)",
+        "2.5"
+    ],
+    [
+        "Ladybird",
+        "4"
+    ],
+    [
+        "Raging Bull",
+        "4"
+    ],
+    [
+        "Prisoners",
+        "4.5"
+    ],
+    [
+        "Incendies",
+        "3"
+    ],
+    [
+        "Under the Skin",
+        "2"
+    ],
+    [
+        "Spotlight",
+        "4.5"
+    ],
+    [
+        "Knives Out",
+        "4.5"
+    ],
+    [
+        "Synecdoche; New York",
+        "2.5"
+    ],
+    [
+        "The Wrestler",
+        "5"
+    ],
+    [
+        "My Cousin Vinny",
+        "3"
+    ],
+    [
+        "The Godfather",
+        "5"
+    ],
+    [
+        "Unforgiven",
+        "3.5"
+    ],
+    [
+        "Capote",
+        "4.5"
+    ],
+    [
+        "Raising Arizona",
+        "4"
+    ],
+    [
+        "Mandy",
+        "4"
+    ],
+    [
+        "Host (2020)",
+        "3.5"
+    ],
+    [
+        "Safety Not Guaranteed",
+        "2.5"
+    ],
+    [
+        "Borat Subsequent Moviefilm",
+        "4"
+    ],
+    [
+        "Misery",
+        "4"
+    ],
+    [
+        "Jacob's Ladder",
+        "3.5"
+    ],
+    [
+        "Hereditary",
+        "4.5"
+    ],
+    [
+        "Whiplash",
+        "4.5"
+    ],
+    [
+        "Good Time",
+        "4"
+    ],
+    [
+        "Cape Fear (1991)",
+        "4"
+    ],
+    [
+        "The Social Dilemma",
+        "3.5"
+    ],
+    [
+        "The Untouchables",
+        "3"
+    ],
+    [
+        "The Shining",
+        "5"
+    ],
+    [
+        "Moneyball",
+        "4"
+    ],
+    [
+        "Spiderman: Into the Spiderverse",
+        "4.5"
+    ],
+    [
+        "Full Metal Jacket",
+        "5"
+    ],
+    [
+        "Raw",
+        "2.5"
+    ],
+    [
+        "Intolerable Curelty",
+        "3.5"
+    ],
+    [
+        "Nocturnal Animals",
+        "3.5"
+    ],
+    [
+        "When Harry Met Sally",
+        "4"
+    ],
+    [
+        "Magnolia",
+        "4"
+    ],
+    [
+        "Before Sunset",
+        "3.5"
+    ],
+    [
+        "Fitzcarraldo",
+        "3.5"
+    ],
+    [
+        "Godzilla: King of Monsters",
+        "1.5"
+    ],
+    [
+        "Eyes Wide Shut",
+        "5"
+    ],
+    [
+        "The Dawn Wall",
+        "3.5"
+    ],
+    [
+        "The Men Who Stare at Goats",
+        "2.5"
+    ],
+    [
+        "The Host (2007)",
+        "4"
+    ],
+    [
+        "Enough Said",
+        "3"
+    ],
+    [
+        "Closer",
+        "3.5"
+    ],
+    [
+        "Mean Streets",
+        "5"
+    ],
+    [
+        "Judas and the Black Messiah",
+        "4.5"
+    ],
+    [
+        "Nebraska",
+        "4.5"
+    ],
+    [
+        "Koynanastashi",
+        "3"
+    ],
+    [
+        "Before Sunrise",
+        "3.5"
+    ],
+    [
+        "Cyrus",
+        "3"
+    ],
+    [
+        "Another Round",
+        "4"
+    ],
+    [
+        "Foxcatcher",
+        "3.5"
+    ],
+    [
+        "Bye Lenin!",
+        "3"
+    ],
+    [
+        "Bad Trip",
+        "5"
+    ],
+    [
+        "Godzilla vs. King Kong",
+        "4"
+    ],
+    [
+        "Lights Out",
+        "2.5"
+    ],
+    [
+        "Swingers",
+        "3"
+    ],
+    [
+        "Platoon",
+        "3.5"
+    ],
+    [
+        "Donut King",
+        "4.5"
+    ],
+    [
+        "War Dogs",
+        "4"
+    ],
+    [
+        "Little Miss Sunshine",
+        "5"
+    ],
+    [
+        "The Descendents",
+        "4"
+    ],
+    [
+        "The Vigil",
+        "4"
+    ],
+    [
+        "Forgetting Sarah Marshall",
+        "3.5"
+    ],
+    [
+        "An American Pickle",
+        "3"
+    ],
+    [
+        "Badlands",
+        "4"
+    ],
+    [
+        "A Quiet Place: Part Two",
+        "4.5"
+    ],
+    [
+        "Walk Hard",
+        "4"
+    ],
+    [
+        "Summer of Love",
+        "5"
+    ],
+    [
+        "No Sudden Move",
+        "3.5"
+    ],
+    [
+        "Talladega Nights: The Ballad of Ricky Bobby",
+        "4"
+    ],
+    [
+        "The Player",
+        "4"
+    ],
+    [
+        "Pig",
+        "3"
+    ],
+    [
+        "Darkest Hour",
+        "3.5"
+    ],
+    [
+        "Bicycle Thieves",
+        "4"
+    ],
+    [
+        "Stranger Than Paradise",
+        "4"
+    ],
+    [
+        "They Shall Not Grow Old",
+        "5"
+    ],
+    [
+        "Nomadland",
+        "3.5"
+    ],
+    [
+        "Blindspotting",
+        "4.5"
+    ],
+    [
+        "Arrival",
+        "5"
+    ],
+    [
+        "Blackkklansman",
+        "4"
+    ],
+    [
+        "Idiocracy",
+        "4.5"
+    ],
+    [
+        "Lars and the Real Girl",
+        "4"
+    ],
+    [
+        "I Don't Feel at Home in This World Anymore",
+        "3"
+    ],
+    [
+        "Zodiac",
+        "4"
+    ],
+    [
+        "The Last Blockbuster",
+        "3.5"
+    ],
+    [
+        "Blue Bayou",
+        "4"
+    ],
+    [
+        "1917",
+        "5"
+    ],
+    [
+        "The Many Saints of Newark",
+        "3"
+    ],
+    [
+        "Lamb",
+        "3.5"
+    ],
+    [
+        "The Taking of Deborah Logan",
+        "3.5"
+    ],
+    [
+        "No Time to Die",
+        "3.5"
+    ],
+    [
+        "The Nice Guys",
+        "4.5"
+    ],
+    [
+        "The French Dispatch",
+        "3"
+    ],
+    [
+        "Spencer",
+        "3.5"
+    ],
+    [
+        "Tommy Boy",
+        "4.5"
+    ],
+    [
+        "Killing Them Softly",
+        "3.5"
+    ],
+    [
+        "Dune",
+        "4.5"
+    ],
+    [
+        "Dark Waters",
+        "4"
+    ],
+    [
+        "The Machinist",
+        "4"
+    ],
+    [
+        "Everything Must Go",
+        "1.5"
+    ],
+    [
+        "Cmon Cmon",
+        "3"
+    ],
+    [
+        "Thelonious Monk: Straight No Chaser",
+        "3.5"
+    ],
+    [
+        "The Power of the Dog",
+        "4"
+    ],
+    [
+        "Life",
+        "4"
+    ],
+    [
+        "Hail, Caeser!",
+        "4.5"
+    ],
+    [
+        "My Idiot Brother",
+        "2.5"
+    ],
+    [
+        "Spiderman: No Way Home",
+        "4"
+    ],
+    [
+        "Licorice Pizza",
+        "4.5"
+    ],
+    [
+        "The Tragedy of Macbeth",
+        "3.5"
+    ],
+    [
+        "Red Rocket",
+        "4"
+    ],
+    [
+        "The Green Knight",
+        "3"
+    ],
+    [
+        "Hard Eight",
+        "4"
+    ],
+    [
+        "In the Heat of the Night",
+        "4.5"
+    ],
+    [
+        "The Man Who Wasn't There",
+        "4"
+    ],
+    [
+        "The Cooler",
+        "3"
+    ],
+    [
+        "In Bruges",
+        "3"
+    ],
+    [
+        "Game Show",
+        "3.5"
+    ],
+//     [
+//         "",
+//         ""
+//     ]
+];
+
+function createMovieList() {
+    let mvlist = document.getElementById('movie-list');
+    for (const mv in mvlist) {
+	let mvDiv = document.createElement("div");
+	mvDiv.classList.add("r");
+	let name = document.createTextNode(mv[0]);
+	name.classList.add("c");
+	let rtg = document.createTextNode(mv[0]);
+	rtg.classList.add("c");
+	mvDiv.appendChild(name);
+	mvDiv.appendChild(rtg);
+	mvlist.appendChild(mvDiv);     
+    }
+};
+createMovieList();
+</script>
 </div>
 </center>
 </body>
