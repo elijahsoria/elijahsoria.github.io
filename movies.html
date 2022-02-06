@@ -69,16 +69,23 @@ a:active {
         <a href="ElijahSoriaResume.pdf">Resume</a>
    </div>
    <h2>Elijah's Movie Reviews<br/>⭐⭐⭐⭐⭐</h2>
+   <select id="sort_by">
+    <option value="default" selected>Default</option>
+    <option value="title">Movie Title (A->Z)</option>
+    <option value="high_rated">Highest Rated</option>
+    <option value="low_rated">Lowest Rated</option>
+   </select>
    <div id="movie-list"></div>
 	<script>
+let mvlist = [];
 function createMovieList() {
     fetch("./movies.txt")
    	.then( r => r.text() )
    	.then( text => {
-    		let mvlist = text.split("\n");
+    		let mvs = text.split("\n");
     		let listdiv = document.getElementById('movie-list');
-    		for (let i = 0; i < mvlist.length - 1; i++) {
-			let mv = mvlist[i].split(";");
+    		for (let i = 0; i < mvs.length - 1; i++) {
+			let mv = mvs[i].split(";");
 			let mvDiv = document.createElement("div");
 			mvDiv.classList.add("r");
 			let name = document.createElement("div");
@@ -89,11 +96,36 @@ function createMovieList() {
 			rtg.classList.add("c");
 			mvDiv.appendChild(name);
 			mvDiv.appendChild(rtg);
-			listdiv.appendChild(mvDiv);     
+			listdiv.appendChild(mvDiv);
+			mvlist.push([mv[0], mv[1]]);
     		}
     	});
 };
 createMovieList();
+
+var menu = document.getElementById("sort_by");
+menu.addEventListener("change", sortMovies);
+function sortMovies(event) {
+  if (menu.value == 'title') {
+    mvlist.sort((a,b) => a[0] <= b[0]);
+  } else if (menu.value == 'high_rated') {
+    mvlist.sort((a,b) => {
+	    if (a[1] == b[1]) {
+		    return a[0] <= b[0];
+	    } else {
+		    return a[1] > b[1];
+	    }
+    });
+  } else if (menu.value == 'low_rated') {
+    mvlist.sort((a,b) => {
+	    if (a[1] == b[1]) {
+		    return a[0] <= b[0];
+	    } else {
+		    return a[1] < b[1];
+	    }
+    });
+  }
+}
 </script>
 </div>
 </center>
