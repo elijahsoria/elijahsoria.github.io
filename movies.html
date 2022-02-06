@@ -83,9 +83,18 @@ function createMovieList() {
    	.then( r => r.text() )
    	.then( text => {
     		let mvs = text.split("\n");
-    		let listdiv = document.getElementById('movie-list');
     		for (let i = 0; i < mvs.length - 1; i++) {
 			let mv = mvs[i].split(";");
+			mvlist.push([mv[0], mv[1]]);
+    		}
+    	});
+};
+createMovieList();
+		
+function updateMovieEl(mvs) {
+	let listdiv = document.getElementById('movie-list');
+	for (let i = 0; i < mvs.length; i++) {
+			let mv = mvs[i];
 			let mvDiv = document.createElement("div");
 			mvDiv.classList.add("r");
 			let name = document.createElement("div");
@@ -97,34 +106,32 @@ function createMovieList() {
 			mvDiv.appendChild(name);
 			mvDiv.appendChild(rtg);
 			listdiv.appendChild(mvDiv);
-			mvlist.push([mv[0], mv[1]]);
     		}
-    	});
 };
-createMovieList();
+updateMovieEl(mvlist);
 
 function sortBy() {
 var menu = document.getElementById("sort_by");
 menu.addEventListener("change", sortMovies);
 function sortMovies(event) {
   if (menu.value == 'title') {
-    mvlist.sort((a,b) => a[0] <= b[0]);
+    updateMovieEl(mvlist.sort((a,b) => a[0] <= b[0]));
   } else if (menu.value == 'high_rated') {
-    mvlist.sort((a,b) => {
+    updateMovieEl(mvlist.sort((a,b) => {
 	    if (a[1] == b[1]) {
 		    return a[0] <= b[0];
 	    } else {
 		    return a[1] > b[1];
 	    }
-    });
+    }));
   } else if (menu.value == 'low_rated') {
-    mvlist.sort((a,b) => {
+    updateMovieEl(mvlist.sort((a,b) => {
 	    if (a[1] == b[1]) {
 		    return a[0] <= b[0];
 	    } else {
 		    return a[1] < b[1];
 	    }
-    });
+    }));
   }
 }
 }
