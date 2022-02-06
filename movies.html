@@ -93,6 +93,7 @@ createMovieList();
 		
 function updateMovieEl(mvs) {
 	let listdiv = document.getElementById('movie-list');
+	listdiv.innerHTML = "";
 	for (let i = 0; i < mvs.length; i++) {
 			let mv = mvs[i];
 			let mvDiv = document.createElement("div");
