@@ -72,7 +72,7 @@ a:active {
    <div id="movie-list"></div>
 	<script>
 function createMovieList() {
-    fetch("movies.txt").
+    fetch("./movies.txt")
    	.then( r => r.text() )
    	.then( text => {
     		let mvlist = text.split("\n");
