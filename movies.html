@@ -69,7 +69,7 @@ a:active {
         <a href="ElijahSoriaResume.pdf">Resume</a>
    </div>
    <h2>Elijah's Movie Reviews<br/>⭐⭐⭐⭐⭐</h2>
-   <select id="sort_by" onChange="sortBy()">
+   <select id="sort_by">
     <option value="default" selected>Default</option>
     <option value="title">Movie Title (A->Z)</option>
     <option value="high_rated">Highest Rated</option>
@@ -78,19 +78,7 @@ a:active {
    <div id="movie-list"></div>
 	<script>
 let mvlist = [];
-function createMovieList() {
-    fetch("./movies.txt")
-   	.then( r => r.text() )
-   	.then( text => {
-    		let mvs = text.split("\n");
-    		for (let i = 0; i < mvs.length - 1; i++) {
-			let mv = mvs[i].split(";");
-			mvlist.push([mv[0], mv[1]]);
-    		}
-    	});
-};
-await createMovieList();
-		
+
 function updateMovieEl(mvs) {
 	let listdiv = document.getElementById('movie-list');
 	listdiv.innerHTML = "";
@@ -109,9 +97,21 @@ function updateMovieEl(mvs) {
 			listdiv.appendChild(mvDiv);
     		}
 };
-updateMovieEl(mvlist);
 
-function sortBy() {
+function createMovieList() {
+    fetch("./movies.txt")
+   	.then( r => r.text() )
+   	.then( text => {
+    		let mvs = text.split("\n");
+    		for (let i = 0; i < mvs.length - 1; i++) {
+			let mv = mvs[i].split(";");
+			mvlist.push([mv[0], mv[1]]);
+    		}
+	        updateMovieEl(mvlist);
+    	});
+};
+createMovieList();
+
 var menu = document.getElementById("sort_by");
 menu.addEventListener("change", sortMovies);
 function sortMovies(event) {
@@ -134,8 +134,7 @@ function sortMovies(event) {
 	    }
     }));
   }
-}
-}
+};
 </script>
 </div>
 </center>
