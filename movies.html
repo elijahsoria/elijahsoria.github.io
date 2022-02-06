@@ -77,7 +77,7 @@ function createMovieList() {
    	.then( text => {
     		let mvlist = text.split("\n");
     		let listdiv = document.getElementById('movie-list');
-    		for (let i = 0; i < mvlist.length; i++) {
+    		for (let i = 0; i < mvlist.length - 1; i++) {
 			let mv = mvlist[i].split(";");
 			let mvDiv = document.createElement("div");
 			mvDiv.classList.add("r");
