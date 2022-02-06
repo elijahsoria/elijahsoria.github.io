@@ -69,7 +69,7 @@ a:active {
         <a href="ElijahSoriaResume.pdf">Resume</a>
    </div>
    <h2>Elijah's Movie Reviews<br/>⭐⭐⭐⭐⭐</h2>
-   <select id="sort_by">
+   <select id="sort_by" onChange="sortBy()">
     <option value="default" selected>Default</option>
     <option value="title">Movie Title (A->Z)</option>
     <option value="high_rated">Highest Rated</option>
@@ -103,6 +103,7 @@ function createMovieList() {
 };
 createMovieList();
 
+function sortBy() {
 var menu = document.getElementById("sort_by");
 menu.addEventListener("change", sortMovies);
 function sortMovies(event) {
@@ -125,6 +126,7 @@ function sortMovies(event) {
 	    }
     });
   }
+}
 }
 </script>
 </div>
