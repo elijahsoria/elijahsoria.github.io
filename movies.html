@@ -113,6 +113,8 @@ function createMovieList() {
 createMovieList();
 
 function sortMovies(event) {
+  console.log("updating...");
+  let menu = document.getElementById("sort_by");
   if (menu.value == 'title') {
     updateMovieEl(mvlist.sort((a,b) => a[0] <= b[0]));
   } else if (menu.value == 'high_rated') {
@@ -133,7 +135,7 @@ function sortMovies(event) {
     }));
   }
 };
-var menu = document.getElementById("sort_by");
+let menu = document.getElementById("sort_by");
 menu.addEventListener("change", sortMovies);
 </script>
 </div>
