@@ -111,26 +111,37 @@ function createMovieList() {
     	});
 };
 createMovieList();
+		
+function stringSortFn(a,b) {
+	if (a < b) {
+			    return -1;
+		    }
+		    if (a > b) {
+			    return 1;
+		    } else {
+			    return 0;
+		    }
+};
 
 function sortMovies(event) {
   console.log("updating...");
   let menu = document.getElementById("sort_by");
   if (menu.value == 'title') {
-    updateMovieEl(mvlist.sort((a,b) => a[0] <= b[0]));
+    updateMovieEl(mvlist.sort((a,b) => stringSortFn(a[0], b[0])));
   } else if (menu.value == 'high_rated') {
     updateMovieEl(mvlist.sort((a,b) => {
 	    if (a[1] == b[1]) {
-		    return a[0] <= b[0];
+		    return stringSortFn(a[0], b[0]);
 	    } else {
-		    return a[1] > b[1];
+		    return parseFloat(b[1]) - parseFloat(a[1]);
 	    }
     }));
   } else if (menu.value == 'low_rated') {
     updateMovieEl(mvlist.sort((a,b) => {
 	    if (a[1] == b[1]) {
-		    return a[0] <= b[0];
+		    return stringSortFn(a[0], b[0]);
 	    } else {
-		    return a[1] < b[1];
+		    return parseFloat(a[1]) - parseFloat(b[1]);
 	    }
     }));
   }
