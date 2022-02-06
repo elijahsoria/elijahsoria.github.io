@@ -48,7 +48,7 @@ Incendies;3
 Under the Skin;2
 Spotlight;4.5
 Knives Out;4.5
-Synecdoche; New York;2.5
+Synecdoche: New York;2.5
 The Wrestler;5
 My Cousin Vinny;3
 The Godfather;5
