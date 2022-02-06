@@ -112,8 +112,6 @@ function createMovieList() {
 };
 createMovieList();
 
-var menu = document.getElementById("sort_by");
-menu.addEventListener("change", sortMovies);
 function sortMovies(event) {
   if (menu.value == 'title') {
     updateMovieEl(mvlist.sort((a,b) => a[0] <= b[0]));
@@ -135,6 +133,8 @@ function sortMovies(event) {
     }));
   }
 };
+var menu = document.getElementById("sort_by");
+menu.addEventListener("change", sortMovies);
 </script>
 </div>
 </center>
