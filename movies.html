@@ -4,7 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Elijah Soria -- Movie Ratings</title>
 <link rel="icon" type="image/png" href="gd_favi.ico">
-<script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
 <style>
 #header{
 	padding:10px
@@ -73,24 +72,26 @@ a:active {
    <div id="movie-list"></div>
 	<script>
 function createMovieList() {
-    let fs = require("fs");
-    let text = fs.readFileSync("./movies.txt").toString('utf-8');
-    let mvlist = text.split("\n");
-    let listdiv = document.getElementById('movie-list');
-    for (let i = 0; i < mvlist.length; i++) {
-	let mv = mvlist[i].split(";");
-	let mvDiv = document.createElement("div");
-	mvDiv.classList.add("r");
-	let name = document.createElement("div");
-	name.innerHTML = mv[0];
-	name.classList.add("c");
-	let rtg = document.createElement("div"); 
-	rtg.innerHTML = mv[1];
-	rtg.classList.add("c");
-	mvDiv.appendChild(name);
-	mvDiv.appendChild(rtg);
-	listdiv.appendChild(mvDiv);     
-    }
+    fetch("./movies.txt").
+   	.then( r => r.text() )
+   	.then( text => {
+    		let mvlist = text.split("\n");
+    		let listdiv = document.getElementById('movie-list');
+    		for (let i = 0; i < mvlist.length; i++) {
+			let mv = mvlist[i].split(";");
+			let mvDiv = document.createElement("div");
+			mvDiv.classList.add("r");
+			let name = document.createElement("div");
+			name.innerHTML = mv[0];
+			name.classList.add("c");
+			let rtg = document.createElement("div"); 
+			rtg.innerHTML = mv[1];
+			rtg.classList.add("c");
+			mvDiv.appendChild(name);
+			mvDiv.appendChild(rtg);
+			listdiv.appendChild(mvDiv);     
+    		}
+    	});
 };
 createMovieList();
 </script>
