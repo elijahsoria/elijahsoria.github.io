@@ -1,0 +1,26 @@
+body {
+   background-color: black;
+   color: white;
+   font-size: 23px;
+   line-height: 1.5;
+}
+
+/* unvisited link */
+a:link {
+  color: #91add4;
+}
+
+/* visited link */
+a:visited {
+  color: #829bbe;
+}
+
+/* mouse over link */
+a:hover {
+  color: #a7bddc;
+}
+
+/* selected link */
+a:active {
+  color: #829bbe;
+}
