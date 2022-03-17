@@ -70,6 +70,7 @@
    <div id="movie-list"></div>
 	<script>
 let mvlist = [];
+let mvlist_recently_watched = [];
 
 function updateMovieEl(mvs) {
 	let listdiv = document.getElementById('movie-list');
@@ -94,12 +95,12 @@ function createMovieList() {
     fetch("./movies.txt")
    	.then( r => r.text() )
    	.then( text => {
-	        mvlist = [];
     		let mvs = text.split("\n");
     		for (let i = mvs.length - 2; i >= 0; i--) {
 			let mv = mvs[i].split(";");
 			mvlist.push([mv[0], mv[1]]);
     		}
+	        mvlist_recently_watched = [...mvlist];
 	        updateMovieEl(mvlist);
     	});
 };
@@ -138,7 +139,7 @@ function sortMovies(event) {
 	    }
     }));
   } else if (menu.value == 'recently_watched') {
-    createMovieList();
+    updateMovieEl(mvlist_recently_watched);
   } 
 };
 let menu = document.getElementById("sort_by");
