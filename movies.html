@@ -62,7 +62,7 @@
    </div>
    <h2>Elijah's Movie Reviews<br/>⭐⭐⭐⭐⭐</h2>
    Sort by: <select class="sort-select" id="sort_by">
-    <option value="default" selected>Default</option>
+    <option value="recently_watched" selected>Recently Watched</option>
     <option value="title">Movie Title (A->Z)</option>
     <option value="high_rated">Highest Rated</option>
     <option value="low_rated">Lowest Rated</option>
@@ -95,7 +95,7 @@ function createMovieList() {
    	.then( r => r.text() )
    	.then( text => {
     		let mvs = text.split("\n");
-    		for (let i = 0; i < mvs.length - 1; i++) {
+    		for (let i = mvs.length - 2; i >= 0; i--) {
 			let mv = mvs[i].split(";");
 			mvlist.push([mv[0], mv[1]]);
     		}
