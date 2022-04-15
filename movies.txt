@@ -170,3 +170,11 @@ Barton Fink;4
 All the President's Men;3.5
 Memories of Murder;4.5
 The Batman (2022);4.5
+North by Northwest;3.5
+Caddyshack;3
+Road Trip;2.5
+Thank You for Smoking;3
+The Alpinist;4.5
+You Won’t be Alone;4
+Saint Maud;3
+
