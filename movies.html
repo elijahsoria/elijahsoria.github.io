@@ -99,7 +99,9 @@ function createMovieList() {
     		let mvs = text.split("\n");
     		for (let i = mvs.length - 2; i >= 0; i--) {
 			let mv = mvs[i].split(";");
-			mvlist.push([mv[0], mv[1]]);
+			if (mv[0] && mv[1]) {
+				mvlist.push([mv[0], mv[1]]);
+			}
     		}
 	        mvlist_recently_watched = [...mvlist];
 	        updateMovieEl(mvlist);
