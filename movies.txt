@@ -183,3 +183,10 @@ The Northman;4.5
 Breaking Away;3.5
 The Unbearable Weight of Massive Talent;5
 Paddington 2;4
+Paddington;3
+Men;3
+Ex Machina;4
+Wild at Heart;3
+Jurassic World: Dominion;3
+Shin Godzilla;3.5
+Crimes of the Future;2.5
