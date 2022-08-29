@@ -73,6 +73,3 @@ function sortMovies(event) {
     updateMovieEl(mvlist_recently_watched);
   } 
 };
-
-let menu = document.getElementById("sort_by");
-menu.addEventListener("change", sortMovies);
