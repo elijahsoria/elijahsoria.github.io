@@ -1,81 +1,81 @@
-Fargo;4.5
-My Own Private Idaho;2.5
-Snowpiercer;3
-The Talented Mr. Ripley;4
-Blood Simple;1.5
-Mother;4
-The Wailing;5
-I Saw the Devil;1
-The Witch;2.5
-Rec;4
-Cabin in the Woods;3.5
-The Skeleton Twins;2
-Mulholland Drive;3.5
-Blue Velvet;4
-Us;5
-Star Wars: Rogue One;4.5
-Drive;2
-Half Nelson;3
-Big Lebowski;5
-Elephant;3
-Bully;2.5
-Mid 90's;3.5
-You Were Never Really Here;2
-Ratcatcher;3
-The Meyerowitz Stories;3.5
-Punch Drunk Love;4
-Chef;3.5
-Alien;4.5
-The Killing of a Sacred Deer;3.5
-A Serious Man;4
-There Will Be Blood;4
-3:10 to Yuma;4
-The Sisters Brothers;5
-Hell or High Water;4
-Requiem for the American Dream;4
-Free Solo;3.5
-Minimalism;2
-American Factory;4.5
-Ramen Heads;3.5
-The Shoplifters;3.5
-Up in the Air;4
-Once Were Brothers;4.5
-Woodstock (2019);2.5
-Ladybird;4
-Raging Bull;4
-Prisoners;4.5
-Incendies;3
-Under the Skin;2
-Spotlight;4.5
-Knives Out;4.5
-Synecdoche: New York;2.5
-The Wrestler;5
-My Cousin Vinny;3
-The Godfather;5
-Unforgiven;3.5
-Capote;4.5
-Raising Arizona;4
-Mandy;4
-Host (2020);3.5
-Safety Not Guaranteed;2.5
-Borat Subsequent Moviefilm;4
-Misery;4
-Jacob's Ladder;3.5
-Hereditary;4.5
-Whiplash;4.5
-Good Time;4
-Cape Fear (1991);4
-The Social Dilemma;3.5
-The Untouchables;3
-The Shining;5
-Moneyball;4
-Spiderman: Into the Spiderverse;4.5
-Full Metal Jacket;5
-Raw;2.5
-Intolerable Curelty;3.5
-Nocturnal Animals;3.5
-When Harry Met Sally;4
-Magnolia;4
+Fargo;4.5;1996;Crime,Thriller
+My Own Private Idaho;2.5;1991;Drama
+Snowpiercer;3;2013;Action,Sci-Fi,Thriller
+The Talented Mr. Ripley;4;1999;Crime,Drama,Thriller
+Blood Simple;1.5;1984;Crime,Drama,Thriller
+Mother;4;2009;Crime,Drama,Mystery
+The Wailing;5;2016;Drama,Horror,Mystery
+I Saw the Devil;1;2010;Action,Crime,Thriller
+The Witch;2.5;2015;Drama,Fantasy,Horror
+Rec;4;2007;Horror,Mystery,Thriller
+The Cabin in the Woods;3.5;2011;Horror,Mystery,Thriller
+The Skeleton Twins;2;2014;Comedy,Drama,Romance
+Mulholland Drive;3.5;2001;Drama,Mystery,Thriller
+Blue Velvet;4;1986;Crime,Drama,Mystery
+Us;5;2019;Horror,Mystery,Thriller
+Star Wars: Rogue One;4.5;2016;Action,Adventure,Sci-Fi
+Drive;2;2011;Action,Drama
+Half Nelson;3;2006;Drama
+The Big Lebowski;5;1998;Comedy,Drama
+Elephant;3;2003;Crime,Drama,Thriller
+Bully;2.5;2001;Biography,Crime,Drama
+Mid 90's;3.5;2018;Comedy,Drama
+You Were Never Really Here;2;2017;Crime,Drama
+Ratcatcher;3;1999;Drama
+The Meyerowitz Stories;3.5;2017;Comedy,Drama
+Punch-Drunk Love;4;2002;Comedy,Drama,Romance
+Chef;3.5;2014;Adventure,Comedy,Drama
+Alien;4.5;1979;Horror,Sci-Fi
+The Killing of a Sacred Deer;3.5;2017;Drama,Horror,Mystery
+A Serious Man;4;2009;Drama
+There Will Be Blood;4;2007;Drama
+3:10 to Yuma;4;2007;Action,Crime,Drama
+The Sisters Brothers;5;2018;Drama,Western
+Hell or High Water;4;2016;Crime,Drama,Thriller
+Requiem for the American Dream;4;2015;Documentary,Biography,News
+Free Solo;3.5;2018;Documentary,Adventure,Sport
+Minimalism: A Documentary About the Important Things;2;2015;Documentary
+American Factory;4.5;2019;Documentary
+Ramen Heads;3.5;2017;Documentary
+The Shoplifters;3.5;2018;Crime,Drama,Thriller
+Up in the Air;4;2009;Comedy,Drama,Romance
+Once Were Brothers;4.5;2019;Documentary,Biography,History
+Woodstock: Three Days That Defined a Generation;2.5;2019;Documentary,History
+Lady Bird;4;2017;Comedy,Drama
+Raging Bull;4;1980;Biography,Drama,Sport
+Prisoners;4.5;2013;Crime,Drama,Mystery
+Incendies;3;2010;Drama,Mystery
+Under the Skin;2;2013;Drama,Horror,Mystery
+Spotlight;4.5;2015;Biography,Crime,Drama
+Knives Out;4.5;2019;Comedy,Crime,Drama
+Synecdoche: New York;2.5;Drama
+The Wrestler;5;2008;Drama,Sport
+My Cousin Vinny;3;1992;Comedy,Drama
+The Godfather;5;1972;Crime,Drama
+Unforgiven;3.5;1992;Drama,Western
+Capote;4.5;2005;Biography,Crime,Drama
+Raising Arizona;4;1987;Comedy,Crime
+Mandy;4;2018;Action,Fantasy,Horror
+Host;3.5;2020;Horror,Mystery
+Safety Not Guaranteed;2.5;2012;Adventure,Comedy,Drama
+Borat Subsequent Moviefilm;4;2020;Comedy
+Misery;4;1990;Drama,Thriller
+Jacob's Ladder;3.5;1990;Drama,Horror,Mystery
+Hereditary;4.5;2018;Drama,Horror,Mystery
+Whiplash;4.5;2014;Drama,Music
+Good Time;4;2017;Crime,Drama,Thriller
+Cape Fear;4;1991;Crime,Thriller
+The Social Dilemma;3.5;2020;Documentary,Drama
+The Untouchables;3;Crime,Drama,Thriller
+The Shining;5;1980;Drama,Horror
+Moneyball;4;2011;Biography,Drama,Sport
+Spider-Man: Into the Spiderverse;4.5;2018;Animation,Action,Adventure
+Full Metal Jacket;5;1987;Drama,War
+Raw;2.5;2016;Drama,Horror
+Intolerable Curelty;3.5;2003;Comedy,Crime,Romance
+Nocturnal Animals;3.5;2016;Drama,Thriller
+When Harry Met Sally...;4;1989;Comedy,Drama,Romance
+Magnolia;4;1999;Drama
 Before Sunset;3.5
 Fitzcarraldo;3.5
 Godzilla: King of Monsters;1.5
