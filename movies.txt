@@ -76,38 +76,38 @@ Intolerable Curelty;3.5;2003;Comedy,Crime,Romance
 Nocturnal Animals;3.5;2016;Drama,Thriller
 When Harry Met Sally...;4;1989;Comedy,Drama,Romance
 Magnolia;4;1999;Drama
-Before Sunset;3.5
-Fitzcarraldo;3.5
-Godzilla: King of Monsters;1.5
-Eyes Wide Shut;5
-The Dawn Wall;3.5
-The Men Who Stare at Goats;2.5
-The Host (2007);4
-Enough Said;3
-Closer;3.5
-Mean Streets;5
-Judas and the Black Messiah;4.5
-Nebraska;4.5
-Koynanastashi;3
-Before Sunrise;3.5
-Cyrus;3
-Another Round;4
-Foxcatcher;3.5
-Bye Lenin!;3
-Bad Trip;5
-Godzilla vs. King Kong;4
-Lights Out;2.5
-Swingers;3
-Platoon;3.5
-Donut King;4.5
-War Dogs;4
-Little Miss Sunshine;5
-The Descendents;4
-The Vigil;4
-Forgetting Sarah Marshall;3.5
-An American Pickle;3
-Badlands;4
-A Quiet Place: Part Two;4.5
+Before Sunset;3.5;2004;Drama,Romance
+Fitzcarraldo;3.5;1982;Adventure,Drama
+Godzilla: King of the Monsters;1.5;2019;Action,Adventure,Fantasy
+Eyes Wide Shut;5;1999;Drama,Mystery,Thriller
+The Dawn Wall;3.5;2017;Documentary,Biography,Sport
+The Men Who Stare at Goats;2.5;2009;Comedy,War
+The Host;4;2006;Drama,Horror,Sci-Fi
+Enough Said;3;2013;Comedy,Drama,Romance
+Closer;3.5;2004;Drama,Romance
+Mean Streets;5;1973;Crime,Drama,Thriller
+Judas and the Black Messiah;4.5;2021;Biography,Drama,History
+Nebraska;4.5;2013;Adventure,Comedy,Drama
+Koyaanisqatsi;3;1982;Documentary,Music
+Before Sunrise;3.5;1995;Drama,Romance
+Cyrus;3;2010;Comedy,Drama,Romance
+Another Round;4;2020;Comedy,Drama
+Foxcatcher;3.5;2014;Biography,Drama,History
+Good Bye Lenin!;3;2003;Comedy,Drama,Romance
+Bad Trip;5;2021;Comedy
+Godzilla vs. Kong;4;2021;Action,Sci-Fi,Thriller
+Lights Out;2.5;2016;Horror,Mystery
+Swingers;3;1996;Comedy,Drama
+Platoon;3.5;1986;Drama,War
+The Donut King;4.5;2020;Documentary
+War Dogs;4;2016;Biography,Comedy,Crime
+Little Miss Sunshine;5;2006;Comedy,Drama
+The Descendents;4;2011;Comedy,Drama
+The Vigil;4;2019;Horror,Mystery,Thriller
+Forgetting Sarah Marshall;3.5;2008;Comedy,Drama,Romance
+An American Pickle;3;2020;Comedy,Fantasy
+Badlands;4;1973;Action,Crime,Drama
+A Quiet Place Part II;4.5;2020;Drama,Horror,Sci-Fi
 Walk Hard;4
 Summer of Love;5
 No Sudden Move;3.5
