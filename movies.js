@@ -65,6 +65,21 @@ function createMovieList() {
     	});
 };
 createMovieList();
+
+function createMovieGenreObj() {
+	for (const mv in mvlist) {
+			  for (const gen in mv.genres) {
+				  if (gen in mvlist_genre) {
+					  mvlist[gen].push(mv);
+				  } else {
+					  mvlist_genre[gen] = [mv];
+				  }
+			  }
+		  }
+		  for (const key in mvlist_genre.keys()) {
+			  mvlist_genre[key].sort(sortMovieFn);
+		  }
+}
 		
 function stringSortFn(a,b) {
 	if (a < b) {
@@ -98,18 +113,7 @@ function sortMovies(event) {
     updateMovieEl(mvlist_recently_watched);
   } else if (menu.value == 'genre') {
 	  if (Object.keys(mvlist_genre).length === 0) {
-		  for (const mv in mvlist) {
-			  for (const gen in mv.genres) {
-				  if (gen in mvlist_genre) {
-					  mvlist[gen].push(mv);
-				  } else {
-					  mvlist_genre[gen] = [mv];
-				  }
-			  }
-		  }
-		  for (const key in mvlist_genre.keys()) {
-			  mvlist_genre[key].sort(sortMovieFn);
-		  }
+		  createMovieGenreObj();
 	  }
 	  updateMovieElWithGenre();
   }
