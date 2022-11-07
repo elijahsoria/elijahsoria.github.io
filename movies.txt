@@ -108,49 +108,49 @@ Forgetting Sarah Marshall;3.5;2008;Comedy,Drama,Romance
 An American Pickle;3;2020;Comedy,Fantasy
 Badlands;4;1973;Action,Crime,Drama
 A Quiet Place Part II;4.5;2020;Drama,Horror,Sci-Fi
-Walk Hard;4
-Summer of Love;5
-No Sudden Move;3.5
-Talladega Nights: The Ballad of Ricky Bobby;4
-The Player;4
-Pig;3
-Darkest Hour;3.5
-Bicycle Thieves;4
-Stranger Than Paradise;4
-They Shall Not Grow Old;5
-Nomadland;3.5
-Blindspotting;4.5
-Arrival;5
-Blackkklansman;4
-Idiocracy;4.5
-Lars and the Real Girl;4
-I Don't Feel at Home in This World Anymore;3
-Zodiac;4
-The Last Blockbuster;3.5
-Blue Bayou;4
-1917;5
-The Many Saints of Newark;3
-Lamb;3.5
-The Taking of Deborah Logan;3.5
-No Time to Die;3.5
-The Nice Guys;4.5
-The French Dispatch;3
-Spencer;3.5
-Tommy Boy;4.5
-Killing Them Softly;3.5
-Dune;4.5
-Dark Waters;4
-The Machinist;4
-Everything Must Go;1.5
-Cmon Cmon;3
-Thelonious Monk: Straight No Chaser;3.5
-The Power of the Dog;4
-Life;4
-Hail, Caeser!;4.5
-My Idiot Brother;2.5
-Spiderman: No Way Home;4
-Licorice Pizza;4.5
-The Tragedy of Macbeth;3.5
+Walk Hard: The Dewey Cox Story;4;2007;Comedy,Music
+Summer of Soul (...Or, When the Revolution Could Not Be Televised);5;2021;Documentary,Music
+No Sudden Move;3.5;2021;Crime,Drama,Mystery
+Talladega Nights: The Ballad of Ricky Bobby;4;2006;Comedy,Sport
+The Player;4;1992;Comedy,Crime,Drama
+Pig;3;2021;Drama,Mystery
+Darkest Hour;3.5;2017;Biography,Drama,War
+Bicycle Thieves;4;1948;Drama
+Stranger Than Paradise;4;1984;Comedy,Drama
+They Shall Not Grow Old;5;2018;Documentary,History,War
+Nomadland;3.5;2020;Drama
+Blindspotting;4.5;2018;Comedy,Crime,Drama
+Arrival;5;2016;Drama,Mystery,Sci-Fi
+BlacKkKlansman;4;2018;Biography,Comedy,Crime
+Idiocracy;4.5;2006;Adventure,Comedy,Sci-Fi
+Lars and the Real Girl;4;2007;Comedy,Drama,Romance
+I Don't Feel at Home in This World Anymore;3;2017;Comedy,Crime,Drama
+Zodiac;4;2007;Crime,Drama,Mystery
+The Last Blockbuster;3.5;2020;Documentary
+Blue Bayou;4;2021;Drama
+1917;5;2019;Action,Drama,War
+The Many Saints of Newark;3;2021;Crime,Drama
+Lamb;3.5;2021;Drama,Fantasy,Horror
+The Taking of Deborah Logan;3.5;2014;Horror,Mystery,Thriller
+No Time to Die;3.5;2021;Action,Adventure,Thriller
+The Nice Guys;4.5;2016;Action,Comedy,Crime
+The French Dispatch;3;2021;Comedy,Drama,Romance
+Spencer;3.5;2021;Biography,Drama
+Tommy Boy;4.5;1995;Adventure,Comedy
+Killing Them Softly;3.5;2012;Crime,Drama,Thriller
+Dune;4.5;2021;Action,Adventure,Drama
+Dark Waters;4;2019;Biography,Drama,History
+The Machinist;4;2004;Drama,Thriller
+Everything Must Go;1.5;2010;Drama,Comedy
+C'mon C'mon;3;2021;Drama
+Thelonious Monk: Straight, No Chaser;3.5;Documentary,Biography,Music
+The Power of the Dog;4;2021;Drama,Romance,Western
+Life;4;2017;Horror,Sci-Fi,Thriller
+Hail, Caeser!;4.5;2016;Comedy,Drama,Mystery
+Our Idiot Brother;2.5;2011;Comedy,Drama
+Spider-Man: No Way Home;4;2021;Action,Adventure,Fantasy
+Licorice Pizza;4.5;2021;Comedy,Drama,Romance
+The Tragedy of Macbeth;3.5;2021;Drama,Mystery,Thriller
 Red Rocket;4
 The Green Knight;3
 Hard Eight;4
