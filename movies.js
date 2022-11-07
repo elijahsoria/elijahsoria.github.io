@@ -6,24 +6,23 @@ function updateMovieEl(mvs) {
 	listdiv.innerHTML = "";
 	for (let i = 0; i < mvs.length; i++) {
 			let mv = mvs[i];
-			let mvDiv = document.createElement("div");
-			mvDiv.classList.add("r");
 			let name = document.createElement("div");
 			name.innerHTML = mv.title;
 			name.classList.add("c");
 			let rtg = document.createElement("div"); 
 			rtg.innerHTML = mv.rating;
 			rtg.classList.add("c");
-			let br = document.createElement("div");
-			br.classList.add("br");
+			let mvDiv = document.createElement("div");
+			mvDiv.classList.add("r");
+			mvDiv.appendChild(name);
+			mvDiv.appendChild(rtg);
 			let sub = document.createElement("div");
 			sub.innerHTML = "(" + mv.year + ") - " + mv.genres.join(", ");
 			sub.classList.add("sub");
-			mvDiv.appendChild(name);
-			mvDiv.appendChild(rtg);
-			mvDiv.appendChild(br);
-			mvDiv.appendChild(sub);
-			listdiv.appendChild(mvDiv); 
+			let wrapDiv = document.createElement("div");
+			wrapDiv.appendChild(mvDiv);
+			wrapDiv.appendChild(sub);
+			listdiv.appendChild(wrapDiv); 
     		}
 };
 
