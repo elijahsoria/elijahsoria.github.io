@@ -138,7 +138,7 @@ The French Dispatch;3;2021;Comedy,Drama,Romance
 Spencer;3.5;2021;Biography,Drama
 Tommy Boy;4.5;1995;Adventure,Comedy
 Killing Them Softly;3.5;2012;Crime,Drama,Thriller
-Dune;4.5;2021;Action,Adventure,Drama
+Dune;4.5;2021;Action,Adventure,Fantasy
 Dark Waters;4;2019;Biography,Drama,History
 The Machinist;4;2004;Drama,Thriller
 Everything Must Go;1.5;2010;Drama,Comedy
@@ -151,66 +151,69 @@ Our Idiot Brother;2.5;2011;Comedy,Drama
 Spider-Man: No Way Home;4;2021;Action,Adventure,Fantasy
 Licorice Pizza;4.5;2021;Comedy,Drama,Romance
 The Tragedy of Macbeth;3.5;2021;Drama,Mystery,Thriller
-Red Rocket;4
-The Green Knight;3
-Hard Eight;4
-In the Heat of the Night;4.5
-The Man Who Wasn't There;4
-The Cooler;3
-In Bruges;3
-Quiz Show;3.5
-Heavy;2.5
-If I Leave Here Tomorrow;4.5
-Kareem: Minority of One;3
-Parallel Mothers;3
-The Truman Show;4.5
-Censor (2021);2.5
-Monster;3
-Barton Fink;4
-All the President's Men;3.5
-Memories of Murder;4.5
-The Batman (2022);4.5
-North by Northwest;3.5
-Caddyshack;3
-Road Trip;2.5
-Thank You for Smoking;3
-The Alpinist;4.5
-You Won’t be Alone;4
-Saint Maud;3
-Everything Everywhere All at Once;4
-Color Out of Space;3.5
-The Northman;4.5
-Breaking Away;3.5
-The Unbearable Weight of Massive Talent;5
-Paddington 2;4
-Paddington;3
-Men;3
-Ex Machina;4
-Wild at Heart;3
-Jurassic World: Dominion;3
-Shin Godzilla;3.5
-Crimes of the Future;2.5
-The Night House;3
-Creep;3
-Leaving Las Vegas;2.5
-Like a Rolling Stone: the Life and Times of Ben Fong-Torres;3.5
-Hustle;3.5
-Dread (2009);3.5
-The Call (2020);3
-Nope;5
-The Platform;3.5
-I Love my Dad;3
-Dog Day Afternoon;4
-A Hard Day's Night;3.5
-The Ritual;3
-The Gift (2015);3.5
-Fire of Love;4
-Funny Pages;4
-It (2017);3.5
-Barbarian (2022);4
-The Outsiders;4.5
-Catch Me If You Can;3.5
-Minari;3.5
-Pearl (2022);2.5
-Beware the Slenderman;2.5
-Halloween (1978);3
+Red Rocket;4;2021;Comedy,Drama
+The Green Knight;3;2021;Adventure,Drama,Fantasy
+Hard Eight;4;1996;Crime,Drama
+In the Heat of the Night;4.5;1967;Drama,Mystery,Thriller
+The Man Who Wasn't There;4;2001;Crime,Drama
+The Cooler;3;2003;Drama,Romance
+In Bruges;3;2008;Comedy,Crime,Drama
+Quiz Show;3.5;1994;Biography,Drama,History
+Heavy;2.5;1995;Drama,Romance
+If I Leave Here Tomorrow:A Film About Lynyrd Skynyrd;4.5;2018;Documentary,Biography,Music
+Kareem: Minority of One;3;2015;Documentary,Sport
+Parallel Mothers;3;2021;Drama
+The Truman Show;4.5;1998;Comedy,Drama
+Censor;2.5;2021;Horror,Mystery
+Monster;3;2003;Biography,Crime,Drama
+Barton Fink;4;1991;Comedy,Drama,Thriller
+All the President's Men;3.5;1976;Drama,History,Thriller
+Memories of Murder;4.5;2003;Crime,Drama,Mystery
+The Batman;4.5;2022;Action,Crime,Drama
+North by Northwest;3.5;1959;Action,Adventure,Mystery
+Caddyshack;3;1980;Comedy,Sport
+Road Trip;2.5;2000;Comedy
+Thank You for Smoking;3;2005;Comedy,Drama
+The Alpinist;4.5;2021;Documentary,Sport
+You Won’t be Alone;4;2022;Drama,Horror
+Saint Maud;3;2019;Drama,Horror,Mystery
+Everything Everywhere All at Once;4;2022;Action,Adventure,Comedy
+Color Out of Space;3.5;2019;Horror,Mystery,Sci-Fi
+The Northman;4.5;2022;Action,Adventure,Drama
+Breaking Away;3.5;1979;Comedy,Drama,Sport
+The Unbearable Weight of Massive Talent;5;2022;Action,Comedy,Crime
+Paddington 2;4;2017;Adventure,Comedy,Family
+Paddington;3;2014;Adventure,Comedy,Family
+Men;3;2022;Drama,Fantasy,Horror
+Ex Machina;4;2014;Drama,Sci-Fi,Thriller
+Wild at Heart;3;1990;Comedy,Crime,Drama
+Jurassic World: Dominion;3;2022;Action,Adventure,Sci-Fi
+Shin Godzilla;3.5;2016;Action,Drama,Horror
+Crimes of the Future;2.5;2022;Drama,Horror,Sci-Fi
+The Night House;3;2020;Horror,Mystery,Thriller
+Creep;3;2014;Horror,Thriller
+Leaving Las Vegas;2.5;1995;Drama,Romance
+Like a Rolling Stone: the Life and Times of Ben Fong-Torres;3.5;2022;Documentary,Music
+Hustle;3.5;2022;Comedy,Drama,Sport
+Dread;3.5;2009;Drama,Horror,Thriller
+The Call;3;2020;Crime,Horror,Mystery
+Nope;5;2020;Horror,Mystery,Sci-Fi
+The Platform;3.5;2019;Horror,Sci-Fi,Thriller
+I Love My Dad;3;2022;Comedy
+Dog Day Afternoon;4;1975;Biography,Crime,Drama
+A Hard Day's Night;3.5;1964;Comedy,Musical
+The Ritual;3;2017;Horror,Mystery,Thriller
+The Gift;3.5;2015;Drama,Mystery,Thriller
+Fire of Love;4;2022;Documentary
+Funny Pages;4;2022;Comedy
+It;3.5;2017;Horror
+Barbarian;4;2022;Horror,Thriller
+The Outsiders;4.5;1983;Crime,Drama
+Catch Me If You Can;3.5;2002;Biography,Crime,Drama
+Minari;3.5;2020;Drama
+Pearl;2.5;2022;Horror
+Beware the Slenderman;2.5;2016;Documentary,Biography,Crime
+Halloween;3;1978;Horror;Thriller
+Creep 2;2;2017;Crime,Drama,Horror
+Decision to Leave;3.5;2022;Crime,Drama,Mystery
+All Quiet on the Western Front;4;2022;Action,Drama,War
