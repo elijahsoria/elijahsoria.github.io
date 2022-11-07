@@ -70,7 +70,7 @@ function createMovieGenreObj() {
 	for (const mv in mvlist) {
 			  for (const gen in mv.genres) {
 				  if (gen in mvlist_genre) {
-					  mvlist[gen].push(mv);
+					  mvlist_genre[gen].push(mv);
 				  } else {
 					  mvlist_genre[gen] = [mv];
 				  }
