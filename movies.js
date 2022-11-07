@@ -67,7 +67,7 @@ function createMovieList() {
 createMovieList();
 
 function createMovieGenreObj() {
-	for (const mv in mvlist) {
+	mvlist.forEach(mv => {
 			  for (const gen in mv.genres) {
 				  if (gen in mvlist_genre) {
 					  mvlist_genre[gen].push(mv);
@@ -75,10 +75,10 @@ function createMovieGenreObj() {
 					  mvlist_genre[gen] = [mv];
 				  }
 			  }
-		  }
-		  for (const key in Object.keys(mvlist_genre)) {
-			  mvlist_genre[key].sort(sortMovieFn);
-		  }
+		});
+	for (const key in Object.keys(mvlist_genre)) {
+		mvlist_genre[key].sort(sortMovieFn);
+	}
 }
 		
 function stringSortFn(a,b) {
