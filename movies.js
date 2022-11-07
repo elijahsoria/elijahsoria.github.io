@@ -33,15 +33,15 @@ function updateMovieEl(mvs) {
 function updateMovieElWithGenre() {
 	let listdiv = document.getElementById('movie-list');
 	listdiv.innerHTML = "";
-	for (const key in Object.keys(mvlist_genre).sort()) {
+	Object.keys(mvlist_genre).sort().forEach(key => {
 		let gen = document.createElement("div");
 		gen.classList.add("gen");
 		gen.innerHTML = "-- " + key + " --";
 		listdiv.appendChild(gen);
-		for (const mv in mvlist_genre[key]) {
+		mvlist_genre[key].forEach(mv => {
 			listdiv.appendChild(createMovieRow(mv));
-		}
-	}
+		});
+	});
 };
 
 function createMovieList() {
