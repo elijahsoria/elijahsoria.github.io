@@ -14,9 +14,16 @@ function updateMovieEl(mvs) {
 			let rtg = document.createElement("div"); 
 			rtg.innerHTML = mv.rating;
 			rtg.classList.add("c");
+			let br = document.createElement("div");
+			br.classList.add("br");
+			let sub = document.createElement("div");
+			sub.innerHTML = "(" + mv.year + ") - " + mv.genres.join(", ");
+			sub.classList.add("sub");
 			mvDiv.appendChild(name);
 			mvDiv.appendChild(rtg);
-			listdiv.appendChild(mvDiv);
+			mvDiv.appendChild(br);
+			mvDiv.appendChild(sub);
+			listdiv.appendChild(mvDiv); 
     		}
 };
 
