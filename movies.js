@@ -33,7 +33,7 @@ function updateMovieEl(mvs) {
 function updateMovieElWithGenre() {
 	let listdiv = document.getElementById('movie-list');
 	listdiv.innerHTML = "";
-	for (const key in mvlist_genre.keys().sort()) {
+	for (const key in Object.keys(mvlist_genre).sort()) {
 		let gen = document.createElement("div");
 		gen.classList.add("gen");
 		gen.innerHTML = "-- " + key + " --";
@@ -76,7 +76,7 @@ function createMovieGenreObj() {
 				  }
 			  }
 		  }
-		  for (const key in mvlist_genre.keys()) {
+		  for (const key in Object.keys(mvlist_genre)) {
 			  mvlist_genre[key].sort(sortMovieFn);
 		  }
 }
