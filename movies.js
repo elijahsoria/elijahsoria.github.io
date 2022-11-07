@@ -114,7 +114,7 @@ function sortMovies(event) {
 	    } else {
 		    return parseFloat(a.rating) - parseFloat(b.rating);
 	    }
-    });
+    }));
   } else if (menu.value == 'recently_watched') {
     updateMovieEl(mvlist_recently_watched);
   } else if (menu.value == 'genre') {
