@@ -108,7 +108,13 @@ function sortMovies(event) {
   } else if (menu.value == 'high_rated') {
     updateMovieEl(mvlist.sort(sortMovieFn));
   } else if (menu.value == 'low_rated') {
-    updateMovieEl(mvlist.sort(sortMovieFn));
+    updateMovieEl(mvlist.sort((a, b) => {
+	    if (a.rating == b.rating) {
+		    return stringSortFn(a.title, b.title);
+	    } else {
+		    return parseFloat(a.rating) - parseFloat(b.rating);
+	    }
+    });
   } else if (menu.value == 'recently_watched') {
     updateMovieEl(mvlist_recently_watched);
   } else if (menu.value == 'genre') {
