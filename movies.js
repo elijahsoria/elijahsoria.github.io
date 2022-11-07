@@ -68,13 +68,13 @@ createMovieList();
 
 function createMovieGenreObj() {
 	mvlist.forEach(mv => {
-			  for (const gen in mv.genres) {
+			  mv.genres.forEach(gen => {
 				  if (gen in mvlist_genre) {
 					  mvlist_genre[gen].push(mv);
 				  } else {
 					  mvlist_genre[gen] = [mv];
 				  }
-			  }
+			  });
 		});
 	for (const key in Object.keys(mvlist_genre)) {
 		mvlist_genre[key].sort(sortMovieFn);
