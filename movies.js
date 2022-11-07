@@ -76,7 +76,7 @@ function createMovieGenreObj() {
 				  }
 			  });
 		});
-	for (const key in Object.keys(mvlist_genre)) {
+	for (const key of Object.keys(mvlist_genre)) {
 		mvlist_genre[key].sort(sortMovieFn);
 	}
 }
