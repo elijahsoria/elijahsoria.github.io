@@ -30,6 +30,16 @@ function updateMovieEl(mvs) {
 	}
 };
 
+function createFilterOptions() {
+	let genreFilter = document.getElementById('genre_filter');
+	for (const gen of genres) {
+		let genDiv = document.createElement("div");
+		genDiv.innerHTML = gen;
+		genDiv.value = gen;
+		genreFilter.appendChild(genDiv);
+	}
+};
+
 function readMovieTextFile() {
     fetch("./movies.txt")
    	.then( r => r.text() )
@@ -50,20 +60,10 @@ function readMovieTextFile() {
     		}
 	        mvlist_recently_watched = [...mvlist];
 	    	updateMovieEl(mvlist);
+	    	createFilterOptions();
     	});
 };
 readMovieTextFile();
-
-const createFilterOption = () => {
-	let genreFilter = document.getElementById('genre_filter');
-	for (const gen of genres) {
-		let genDiv = document.createElement("div");
-		genDiv.innerHTML = gen;
-		genDiv.value = gen;
-		genreFilter.appendChild(genDiv);
-	}
-};
-createFilterOption();
 		
 function stringSortFn(a,b) {
 	if (a < b) {
