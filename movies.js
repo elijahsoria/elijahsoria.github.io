@@ -88,20 +88,19 @@ function sortMovies(event) {
   console.log("updating...");
   let menu = document.getElementById("sort_by");
   if (menu.value == 'title') {
-    updateMovieEl(mvlist.sort((a,b) => stringSortFn(a.title, b.title)));
+    mvlist.sort((a,b) => stringSortFn(a.title, b.title));
   } else if (menu.value == 'high_rated') {
-    updateMovieEl(mvlist.sort(sortMovieFn));
+    mvlist.sort(sortMovieFn);
   } else if (menu.value == 'low_rated') {
-    updateMovieEl(mvlist.sort((a, b) => {
+    mvlist.sort((a, b) => {
 	    if (a.rating == b.rating) {
 		    return stringSortFn(a.title, b.title);
 	    } else {
 		    return parseFloat(a.rating) - parseFloat(b.rating);
 	    }
-    }));
-  } else if (menu.value == 'recently_watched') {
-    updateMovieEl(mvlist_recently_watched);
+    });
   }
+  return filterGenre(null);
 };
 
 function filterGenre(event) {
