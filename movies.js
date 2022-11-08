@@ -1,5 +1,6 @@
 let mvlist = [];
 let mvlist_recently_watched = [];
+let genres = new Set();
 let mvlist_genre = {};
 
 function createMovieRow(mv) {
@@ -38,13 +39,11 @@ function updateMovieElWithGenre() {
 		gen.classList.add("gen");
 		gen.innerHTML = "-- " + key + " --";
 		listdiv.appendChild(gen);
-		mvlist_genre[key].forEach(mv => {
-			listdiv.appendChild(createMovieRow(mv));
-		});
+		mvlist_genre[key].forEach(mv => listdiv.appendChild(createMovieRow(mv)));
 	});
 };
 
-function createMovieList() {
+function readMovieTextFile() {
     fetch("./movies.txt")
    	.then( r => r.text() )
    	.then( text => {
@@ -52,19 +51,32 @@ function createMovieList() {
     		for (let i = mvs.length - 2; i >= 0; i--) {
 			let mv = mvs[i].split(";");
 			if (mv[0] && mv[1] && mv[2] && mv[3]) {
+				let gens = mv[3].split(",");
 				mvlist.push({
 					title: mv[0],
 					rating: mv[1],
 					year: mv[2],
-					genres: mv[3].split(",") 
+					genres: gens
 				});
+				gens.forEach(gen => genres.add(gen));
 			}
     		}
 	        mvlist_recently_watched = [...mvlist];
-	        updateMovieEl(mvlist);
     	});
 };
-createMovieList();
+readMovieTextFile();
+updateMovieEl(mvlist);
+
+() => {
+	let genreFilter = document.getElementById('genre_filter');
+	for (const gen of genres) {
+		let genDiv = document.createElement("div");
+		genDiv.innerHTML = gen;
+		genDiv.value = gen;
+		genreFilter.appendChild(genDiv);
+	}
+}();
+
 
 function createMovieGenreObj() {
 	mvlist.forEach(mv => {
