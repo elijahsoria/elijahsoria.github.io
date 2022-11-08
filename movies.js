@@ -33,7 +33,7 @@ function updateMovieEl(mvs) {
 function createFilterOptions() {
 	let genreFilter = document.getElementById('genre_filter');
 	for (const gen of genres) {
-		let genDiv = document.createElement("div");
+		let genDiv = document.createElement("option");
 		genDiv.innerHTML = gen;
 		genDiv.value = gen;
 		genreFilter.appendChild(genDiv);
