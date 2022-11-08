@@ -49,10 +49,10 @@ function readMovieTextFile() {
 			}
     		}
 	        mvlist_recently_watched = [...mvlist];
+	    	updateMovieEl(mvlist);
     	});
 };
 readMovieTextFile();
-updateMovieEl(mvlist);
 
 const createFilterOption = () => {
 	let genreFilter = document.getElementById('genre_filter');
