@@ -107,11 +107,11 @@ function sortMovies(event) {
 function filterGenre(event) {
 	console.log("filtering genre...");
 	let genre = document.getElementById("genre_filter").value;
-	let mvs_filtered;
+	let mvs_filtered = [];
 	if (document.getElementById("sort_by").value == "recently_watched") {
 		mvs_filtered = mvlist_recently_watched.filter(mv => mv.genres.includes(genre));
 	} else {
 		mvs_filtered = mvlist.filter(mv => mv.genres.includes(genre));
 	}
-	updateMovieEl(mvs_filtered);
+	mvs_filtered.length ? updateMovieEl(mvs_filtered) : sortMovies(null);
 };
