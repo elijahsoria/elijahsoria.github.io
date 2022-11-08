@@ -54,7 +54,7 @@ function readMovieTextFile() {
 readMovieTextFile();
 updateMovieEl(mvlist);
 
-() => {
+const createFilterOption = () => {
 	let genreFilter = document.getElementById('genre_filter');
 	for (const gen of genres) {
 		let genDiv = document.createElement("div");
@@ -62,7 +62,8 @@ updateMovieEl(mvlist);
 		genDiv.value = gen;
 		genreFilter.appendChild(genDiv);
 	}
-}();
+};
+createFilterOption();
 		
 function stringSortFn(a,b) {
 	if (a < b) {
