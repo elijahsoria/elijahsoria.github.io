@@ -34,6 +34,7 @@
     <option value="high_rated">Highest Rated</option>
     <option value="low_rated">Lowest Rated</option>
    </select>
+   <br>
    Genre: <select class="sort-select" id="genre_filter">
     <option value="all" selected>All Genres</option>
    </select>
@@ -42,7 +43,7 @@
 	let menu = document.getElementById("sort_by");
 	menu.addEventListener("change", sortMovies);
 	let genre_filter = document.getElementById("genre_filter");
-	menu.addEventListener("change", filterGenre);
+	genre_filter.addEventListener("change", filterGenre);
    </script>
 </div>
 </center>
