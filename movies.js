@@ -1,7 +1,6 @@
 let mvlist = [];
 let mvlist_recently_watched = [];
 let genres = new Set();
-let mvlist_genre = {};
 
 function createMovieRow(mv) {
 	let name = document.createElement("div");
@@ -29,18 +28,6 @@ function updateMovieEl(mvs) {
 	for (let i = 0; i < mvs.length; i++) {
 		listdiv.appendChild(createMovieRow(mvs[i]));
 	}
-};
-
-function updateMovieElWithGenre() {
-	let listdiv = document.getElementById('movie-list');
-	listdiv.innerHTML = "";
-	Object.keys(mvlist_genre).sort().forEach(key => {
-		let gen = document.createElement("div");
-		gen.classList.add("gen");
-		gen.innerHTML = "-- " + key + " --";
-		listdiv.appendChild(gen);
-		mvlist_genre[key].forEach(mv => listdiv.appendChild(createMovieRow(mv)));
-	});
 };
 
 function readMovieTextFile() {
@@ -76,22 +63,6 @@ updateMovieEl(mvlist);
 		genreFilter.appendChild(genDiv);
 	}
 }();
-
-
-function createMovieGenreObj() {
-	mvlist.forEach(mv => {
-			  mv.genres.forEach(gen => {
-				  if (gen in mvlist_genre) {
-					  mvlist_genre[gen].push(mv);
-				  } else {
-					  mvlist_genre[gen] = [mv];
-				  }
-			  });
-		});
-	for (const key of Object.keys(mvlist_genre)) {
-		mvlist_genre[key].sort(sortMovieFn);
-	}
-}
 		
 function stringSortFn(a,b) {
 	if (a < b) {
@@ -129,10 +100,17 @@ function sortMovies(event) {
     }));
   } else if (menu.value == 'recently_watched') {
     updateMovieEl(mvlist_recently_watched);
-  } else if (menu.value == 'genre') {
-	  if (Object.keys(mvlist_genre).length === 0) {
-		  createMovieGenreObj();
-	  }
-	  updateMovieElWithGenre();
   }
+};
+
+function filterGenre(event) {
+	console.log("filtering genre...");
+	let genre = document.getElementById("genre_filter").value;
+	let mvs_filtered;
+	if (document.getElementById("sort_by").value == "recently_watched") {
+		mvs_filtered = mvlist_recently_watched.filter(mv => mv.genres.includes(genre);
+	} else {
+		mvs_filtered = mvlist.filter(mv => mv.genres.includes(genre);
+	}
+	updateMovieEl(mvs_filtered);
 };
