@@ -1,4 +1,5 @@
-let mvlist = [];
+
+
 let mvlist_recently_watched = [];
 let genres = new Set();
 
@@ -49,7 +50,7 @@ function readMovieTextFile() {
 			let mv = mvs[i].split(";");
 			if (mv[0] && mv[1] && mv[2] && mv[3]) {
 				let gens = mv[3].split(",");
-				mvlist.push({
+				mvlist_recently_watched.push({
 					title: mv[0],
 					rating: mv[1],
 					year: mv[2],
@@ -58,8 +59,7 @@ function readMovieTextFile() {
 				gens.forEach(gen => genres.add(gen));
 			}
     		}
-	        mvlist_recently_watched = [...mvlist];
-	    	updateMovieEl(mvlist);
+	    	updateMovieEl(mvlist_recently_watched);
 	    	createFilterOptions();
     	});
 };
@@ -84,15 +84,14 @@ function sortMovieFn(a, b) {
 	}
 }
 
-function sortMovies(event) {
-  console.log("updating...");
+function sortMovies(mvs) {
   let menu = document.getElementById("sort_by");
   if (menu.value == 'title') {
-    mvlist.sort((a,b) => stringSortFn(a.title, b.title));
+    return mvs.sort((a,b) => stringSortFn(a.title, b.title));
   } else if (menu.value == 'high_rated') {
-    mvlist.sort(sortMovieFn);
+    return mvs.sort(sortMovieFn);
   } else if (menu.value == 'low_rated') {
-    mvlist.sort((a, b) => {
+    return mvs.sort((a, b) => {
 	    if (a.rating == b.rating) {
 		    return stringSortFn(a.title, b.title);
 	    } else {
@@ -100,23 +99,19 @@ function sortMovies(event) {
 	    }
     });
   }
-  return filterGenre(null);
 };
 
-function filterGenre(event) {
-	console.log("filtering genre...");
-	let genre = document.getElementById("genre_filter").value;
-	let mvs_filtered = [];
-	if (document.getElementById("sort_by").value == "recently_watched") {
-		if (genre == "all" ) {
-			return updateMovieEl(mvlist_recently_watched);
-		}
-		mvs_filtered = mvlist_recently_watched.filter(mv => mv.genres.includes(genre));
-	} else {
-		if (genre == "all") {
-			return updateMovieEl(mvlist);
-		}
-		mvs_filtered = mvlist.filter(mv => mv.genres.includes(genre));
+function filterGenre(mvs, genre) {
+	if (genre == "all") {
+		return mvs;
 	}
-	return updateMovieEl(mvs_filtered);
-};
+	return mvs.filter(mv => mv.genres.includes(genre));
+}
+
+function updateMovies(event) {
+	let genre = document.getElementById("genre_filter").value;
+	let mvs = mvlist_recently_watched;
+	mvs = filterGenre(mvs, genre);
+	mvs = sortMovies(mvs);
+	updateMovieEl(mvs);
+}
