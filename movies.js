@@ -96,6 +96,8 @@ function sortMovies(mvs) {
 		    return parseFloat(a.rating) - parseFloat(b.rating);
 	    }
     });
+  } else {
+    return mvs;
   }
 };
 
