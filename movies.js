@@ -1,5 +1,3 @@
-
-
 let mvlist_recently_watched = [];
 let genres = new Set();
 
