@@ -108,7 +108,7 @@ function filterGenre(mvs, genre) {
 
 function updateMovies(event) {
 	let genre = document.getElementById("genre_filter").value;
-	let mvs = mvlist_recently_watched;
+	let mvs = [...mvlist_recently_watched];
 	mvs = filterGenre(mvs, genre);
 	mvs = sortMovies(mvs);
 	updateMovieEl(mvs);
