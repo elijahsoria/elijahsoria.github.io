@@ -197,7 +197,7 @@ Like a Rolling Stone: the Life and Times of Ben Fong-Torres;3.5;2022;Documentary
 Hustle;3.5;2022;Comedy,Drama,Sport
 Dread;3.5;2009;Drama,Horror,Thriller
 The Call;3;2020;Crime,Horror,Mystery
-Nope;5;2020;Horror,Mystery,Sci-Fi
+Nope;5;2022;Horror,Mystery,Sci-Fi
 The Platform;3.5;2019;Horror,Sci-Fi,Thriller
 I Love My Dad;3;2022;Comedy
 Dog Day Afternoon;4;1975;Biography,Crime,Drama
@@ -217,3 +217,8 @@ Halloween;3;1978;Horror;Thriller
 Creep 2;2;2017;Crime,Drama,Horror
 Decision to Leave;3.5;2022;Crime,Drama,Mystery
 All Quiet on the Western Front;4;2022;Action,Drama,War
+Black Panther: Wakanda Forever;3.5;2022;Action,Adventure,Drama
+The Banshees of Inisherin;3.5;2022;Comedy,Drama
+Top Gun: Maverick;3.5;2022;Action,Drama
+Border;4;2018;Crime,Drama,Fantasy
+Tár;4;2022;Drama,Music
