@@ -222,3 +222,11 @@ The Banshees of Inisherin;3.5;2022;Comedy,Drama
 Top Gun: Maverick;3.5;2022;Action,Drama
 Border;4;2018;Crime,Drama,Fantasy
 Tár;4;2022;Drama,Music
+Casino Royale;4;2006;Action,Adventure,Thriller
+Emily the Criminal;3;2022;Crime,Drama,Thriller
+Gangs of New York;4;2002;Crime,Drama
+The Menu;3;2022;Comedy,Horror,Thriller
+Moonage Daydream;3.5;2022;Documentary,Music
+Get Out;5;2017;Horror,Mystery,Thriller
+Coming to America;3.5;1988;Comedy,Romance
+Glass Onion: A Knives Out Mystery;3;2022;Comedy,Crime,Drama
