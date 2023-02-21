@@ -230,3 +230,11 @@ Moonage Daydream;3.5;2022;Documentary,Music
 Get Out;5;2017;Horror,Mystery,Thriller
 Coming to America;3.5;1988;Comedy,Romance
 Glass Onion: A Knives Out Mystery;3;2022;Comedy,Crime,Drama
+White Noise;3;2022;Comedy,Drama,Horror
+The Guilty;2.5;2021;Crime,Drama,Thriller
+Shiva Baby;4;2020;Comedy,Drama
+Skyfall;4;2012;Action,Adventure,Thriller
+Gremlins;3.5;1984;Comedy,Fantasy,Horror
+Infinity Pool;3;2023;Crime,Horror,Mystery
+It Follows;4;2014;Horror,Mystery,Thriller
+Triangle of Sadness;3.5;2022;Comedy,Drama
