@@ -86,6 +86,14 @@ function sortMovies(mvs) {
   let menu = document.getElementById("sort_by");
   if (menu.value == 'title') {
     return mvs.sort((a,b) => stringSortFn(a.title, b.title));
+  } else if (menu.value == 'release_year') {
+    return mvs.sort((a,b) => {
+	    if (a.year == b.year) {
+		    return stringSortFn(a.title, b.title);
+	    } else {
+		    return parseInt(b.year) - parseInt(a.year);
+	    }
+    });
   } else if (menu.value == 'high_rated') {
     return mvs.sort(sortMovieFn);
   } else if (menu.value == 'low_rated') {
