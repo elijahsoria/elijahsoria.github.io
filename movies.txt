@@ -238,3 +238,11 @@ Gremlins;3.5;1984;Comedy,Fantasy,Horror
 Infinity Pool;3;2023;Crime,Horror,Mystery
 It Follows;4;2014;Horror,Mystery,Thriller
 Triangle of Sadness;3.5;2022;Comedy,Drama
+14 Peaks: Nothing Is Impossible;3;2021;Documentary,Adventure,Sport
+Nightcrawler;4;2014;Crime,Drama,Thriller
+Navalny;4.5;2022;Documentary,Biography
+The Place Beyond the Pines;4;2012;Crime,Drama,Thriller
+Blade Runner 2049;4.5;2017;Action,Drama,Mystery
+How to Blow Up a Pipeline;2.5;2022;Crime,Drama,Thriller
+Sorry to Bother You;4;2018;Comedy,Drama,Fantasy
+Momento;3;2000;Mystery,Thriller
