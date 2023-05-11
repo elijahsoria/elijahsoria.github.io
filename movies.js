@@ -128,7 +128,7 @@ function loadPage() {
 		menu.addEventListener("change", updateMovies);
 		let genre_filter = document.getElementById("genre_filter");
 		genre_filter.addEventListener("change", updateMovies);
-		document.body.style.visibility = "visible";
+		document.body.removeAttribute("style");
 	});
 }
 loadPage();
