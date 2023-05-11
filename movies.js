@@ -40,7 +40,7 @@ function createFilterOptions() {
 };
 
 function readMovieTextFile() {
-    fetch("./movies.txt")
+    return fetch("./movies.txt")
    	.then( r => r.text() )
    	.then( text => {
     		let mvs = text.split("\n");
@@ -61,7 +61,6 @@ function readMovieTextFile() {
 	    	createFilterOptions();
     	});
 };
-readMovieTextFile();
 		
 function stringSortFn(a,b) {
 	if (a < b) {
@@ -122,3 +121,13 @@ function updateMovies(event) {
 	mvs = sortMovies(mvs);
 	updateMovieEl(mvs);
 }
+
+function loadPage() {
+	readMovieTextFile().then(() => {
+		let menu = document.getElementById("sort_by");
+		menu.addEventListener("change", updateMovies);
+		let genre_filter = document.getElementById("genre_filter");
+		genre_filter.addEventListener("change", updateMovies);
+	});
+}
+loadPage();
