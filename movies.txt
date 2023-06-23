@@ -246,3 +246,10 @@ Blade Runner 2049;4.5;2017;Action,Drama,Mystery
 How to Blow Up a Pipeline;2.5;2022;Crime,Drama,Thriller
 Sorry to Bother You;4;2018;Comedy,Drama,Fantasy
 Momento;3;2000;Mystery,Thriller
+Office Space;4;1999;Comedy
+Ringu;2.5;1998;Horror,Mystery
+Charlie Wilson’s War;2;2007;Biography,Comedy,Drama
+Spider-Man: Across the Spider-Verse;3;2023;Animation,Action,Adventure
+Sinister;3.5;2012;Horror,Mystery,Thriller
+To Live and Die in L.A.;4;1985;Action,Crime,Drama
+American Splendor;4;2003;Biography,Comedy,Drama
