@@ -108,10 +108,10 @@ function sortMovies(mvs) {
 };
 
 function filterGenre(mvs, genre) {
-	if (genre == "all") {
-		return mvs;
-	}
-	return mvs.filter(mv => mv.genres.includes(genre));
+  if (genre == "all") {
+    return mvs;
+  }
+  return mvs.filter(mv => mv.genres.includes(genre));
 }
 
 function updateMovies(event) {
