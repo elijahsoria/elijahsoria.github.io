@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://elijahsoria.github.io/sitemap.xml
