@@ -253,3 +253,11 @@ Spider-Man: Across the Spider-Verse;3;2023;Animation,Action,Adventure
 Sinister;3.5;2012;Horror,Mystery,Thriller
 To Live and Die in L.A.;4;1985;Action,Crime,Drama
 American Splendor;4;2003;Biography,Comedy,Drama
+Possessor;4;2020;Horror,Mystery,Sci-Fi
+Midnight Cowboy;4.5;1969;Drama
+Mission: Impossible - Dead Reckoning Part One;3.5;2023;Action,Adventure,Thriller
+Barbie;4;2023;Adventure,Comedy,Fantasy
+Green Room;4;2015;Crime,Drama,Horror
+Cerdita (Piggy);3;2022;Drama,Horror,Thriller
+Oppenheimer;3.5;2023;Biography,Drama,History
+Searching;3.5;2018;Drama,Mystery,Thriller
