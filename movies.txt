@@ -261,3 +261,13 @@ Green Room;4;2015;Crime,Drama,Horror
 Cerdita (Piggy);3;2022;Drama,Horror,Thriller
 Oppenheimer;3.5;2023;Biography,Drama,History
 Searching;3.5;2018;Drama,Mystery,Thriller
+Talk to Me;4;2022;Horror,Thriller
+The Thing;4.5;1982;Horror,Mystery,Sci-Fi
+Doubt;4.5;2008;Drama,Mystery
+The House of the Devil;3;2009;Horror,Mystery
+Huesera: The Bone Woman;3;2022;Drama,Horror
+Attachment;3.5;2022;Comedy,Horror,Romance
+She Said;3.5;2022;Drama,History
+The Creator;2.5;2023;Action,Adventure,Drama
+El Orfanato (The Orphanage);3;2007;Drama,Horror,Mystery
+The Revenant;4.5;2015;Action,Adventure,Drama
