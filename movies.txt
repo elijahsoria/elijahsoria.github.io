@@ -271,3 +271,9 @@ She Said;3.5;2022;Drama,History
 The Creator;2.5;2023;Action,Adventure,Drama
 El Orfanato (The Orphanage);3;2007;Drama,Horror,Mystery
 The Revenant;4.5;2015;Action,Adventure,Drama
+Killers of the Flower Moon;3.5;2023;Crime,Drama,History
+Carrie;3.5;1976;Horror,Mystery
+Apocalypse Now;5;1979;Drama,Mystery,War
+Hearts of Darkness: A Filmmaker's Apocalypse;4;1991;Documentary
+Enemy;3;2013;Drama,Mystery,Thriller
+End of Watch;2.5;2012;Action,Crime,Drama
