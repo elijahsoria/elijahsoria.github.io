@@ -277,3 +277,16 @@ Apocalypse Now;5;1979;Drama,Mystery,War
 Hearts of Darkness: A Filmmaker's Apocalypse;4;1991;Documentary
 Enemy;3;2013;Drama,Mystery,Thriller
 End of Watch;2.5;2012;Action,Crime,Drama
+The Taste of Things;2;2023;Drama,History,Romance
+The Wolf of Wall Street;4;2013;Biography,Comedy,Drama
+Godzilla Minus One;4.5;2023;Action,Adventure,Drama
+The Lodge;2.5;2019;Drama,Horror,Mystery
+The Holdovers;4.5;2023;Comedy,Drama
+Anatomy of a Fall;4.5;Crime,Drama,Thriller
+The Silence of the Lambs;4;1991;Crime,Drama,Thriller
+Inside;2.5;2023;Drama,Thriller
+Manchester by the Sea;4;2016;Drama
+Three Billboards Outside Ebbing, Missouri;4;2017;Comedy,Crime,Drama
+Midsommar;3.5;2019;Drama,Horror,Mystery
+House at the End of the Street;2.5;2012;Drama,Horror,Thriller
+The Iron Claw;4;2023;Biography,Drama,Sport
