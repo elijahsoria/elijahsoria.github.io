@@ -5,12 +5,18 @@
 <url>
 <loc>https://elijahsoria.github.io/</loc>
 <image:image>
-    <image:loc>https://elijahsoria.github.io/elijah.jpg</image:loc>
+    <image:loc>https://elijahsoria.github.io/images/elijah.webp</image:loc>
 </image:image>
 <image:image>
-    <image:loc>https://elijahsoria.github.io/elijah_small.jpeg</image:loc>
+    <image:loc>https://elijahsoria.github.io/images/elijah_small.webp</image:loc>
 </image:image>
-<lastmod>2023-08-22T21:00:00+00:00</lastmod>
+<image:image>
+    <image:loc>https://elijahsoria.github.io/images/elijah.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://elijahsoria.github.io/images/elijah_small.jpeg</image:loc>
+</image:image>
+<lastmod>2023-01-13T21:00:00+00:00</lastmod>
 <priority>1.00</priority>
 </url>
 <url>
@@ -20,7 +26,7 @@
 </url>
 <url>
 <loc>https://elijahsoria.github.io/movies.html</loc>
-<lastmod>2023-08-22T21:00:00+00:00</lastmod>
+<lastmod>2023-01-13T21:00:00+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 </urlset>
