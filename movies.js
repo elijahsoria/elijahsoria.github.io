@@ -13,7 +13,7 @@ function createMovieRow(mv) {
 	mvDiv.appendChild(name);
 	mvDiv.appendChild(rtg);
 	let sub = document.createElement("div");
-	sub.innerHTML = "(" + mv.year + ") - " + mv.genres.join(", ");
+	sub.innerHTML = `(${mv.year}) - ${mv.genres.join(", ")}`;
 	sub.classList.add("sub");
 	let wrapDiv = document.createElement("div");
 	wrapDiv.appendChild(mvDiv);
