@@ -303,3 +303,9 @@ The Informant!;3.5;2009;Biography,Comedy,Crime
 Lake Mungo;3;2008;Drama,Horror,Mystery
 Dune: Part Two;4.5;2024;Action,Adventure,Drama
 Panic Room;4;2002;Crime,Drama,Thriller
+Dream Scenario;3.5;2023;Comedy,Horror
+Late Night with the Devil;4;2023;Horror
+The 40-Year-Old Virgin;3.5;2005;Comedy,Romance
+Shaun of the Dead;4.5;2004;Comedy,Horror
+Fantastic Beasts: The Secrets of Dumbledore;3;2022;Adventure,Family,Fantasy
+American Fiction;4;2023;Comedy,Drama
