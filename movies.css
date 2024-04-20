@@ -1,13 +1,15 @@
-#header{
-	padding:10px
+#header {
+  padding: 10px;
 }
 .table-container {
-   width: 540px;
+  width: 540px;
+  margin: 0 auto;
+  text-align: center;
 }
 .sort-select {
-   font-size: 16px;
-   padding: 2px;
-   border-radius: 10px;
+  font-size: 16px;
+  padding: 2px;
+  border-radius: 10px;
 }
 .elijahimage {
   height: auto;
@@ -23,10 +25,10 @@
   }
 }
 .r {
-   display: flex;
-   width: 100%;
-   justify-content: space-between;
-   align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 .c {
   padding: 15px 10px 0 10px;
@@ -44,6 +46,6 @@
 }
 @media (max-width: 635px) {
   .table-container {
-   width: 85vw;
+    width: 85vw;
   }
 }
