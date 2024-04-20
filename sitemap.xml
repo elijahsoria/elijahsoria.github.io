@@ -5,28 +5,39 @@
 <url>
 <loc>https://elijahsoria.github.io/</loc>
 <image:image>
-    <image:loc>https://elijahsoria.github.io/images/elijah.webp</image:loc>
+    <image:loc>https://elijahsoria.github.io/images/elijah2.webp</image:loc>
 </image:image>
 <image:image>
-    <image:loc>https://elijahsoria.github.io/images/elijah_small.webp</image:loc>
+    <image:loc>https://elijahsoria.github.io/images/elijah_xsmall2.webp</image:loc>
 </image:image>
 <image:image>
-    <image:loc>https://elijahsoria.github.io/images/elijah.jpg</image:loc>
+    <image:loc>https://elijahsoria.github.io/images/elijah_small2.webp</image:loc>
 </image:image>
 <image:image>
-    <image:loc>https://elijahsoria.github.io/images/elijah_small.jpeg</image:loc>
+    <image:loc>https://elijahsoria.github.io/images/elijah_med2.webp</image:loc>
 </image:image>
-<lastmod>2023-01-13T21:00:00+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://elijahsoria.github.io/resume.pdf</loc>
-<lastmod>2023-08-17T20:19:47+00:00</lastmod>
-<priority>0.80</priority>
+<image:image>
+    <image:loc>https://elijahsoria.github.io/images/elijah_lrg2.webp</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://elijahsoria.github.io/images/elijah2.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://elijahsoria.github.io/images/elijah_xsmall2.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://elijahsoria.github.io/images/elijah_small2.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://elijahsoria.github.io/images/elijah_med2.jpg</image:loc>
+</image:image>
+<image:image>
+    <image:loc>https://elijahsoria.github.io/images/elijah_lrg2.jpg</image:loc>
+</image:image>
+<lastmod>2023-04-20T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://elijahsoria.github.io/movies.html</loc>
-<lastmod>2023-01-13T21:00:00+00:00</lastmod>
-<priority>0.80</priority>
+<lastmod>2023-04-13T00:00:00+00:00</lastmod>
 </url>
 </urlset>
