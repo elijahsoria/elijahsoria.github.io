@@ -24,7 +24,7 @@
 .table-row {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 4px;
+  margin: 4px 0;
 }
 @media (max-width: 1080px) {
   .elijahimage {
