@@ -21,6 +21,11 @@
 .table-content > h2 {
   margin-bottom: 5px;
 }
+.table-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4px;
+}
 @media (max-width: 1080px) {
   .elijahimage {
     padding-top: 25px;
