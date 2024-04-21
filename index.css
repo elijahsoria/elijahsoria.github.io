@@ -15,6 +15,12 @@
 .table-content {
   padding: 30px 30px 0 30px;
 }
+.table-content > p {
+  margin-top: 5px;
+}
+.table-content > h2 {
+  margin-bottom: 0px;
+}
 @media (max-width: 1080px) {
   .elijahimage {
     padding-top: 25px;
