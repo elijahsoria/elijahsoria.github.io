@@ -309,3 +309,14 @@ The 40-Year-Old Virgin;3.5;2005;Comedy,Romance
 Shaun of the Dead;4.5;2004;Comedy,Horror
 Fantastic Beasts: The Secrets of Dumbledore;3;2022;Adventure,Family,Fantasy
 American Fiction;4;2023;Comedy,Drama
+Civil War;3.5;2024;Action,Adventure,Thriller
+It Comes at Night;3.5;2017;Drama,Horror,Mystery
+The Strangers;2.5;2008;Horror,Mystery,Thriller
+Beverly Hills Cop;3;1984;Action,Comedy,Crime
+Furiosa: A Mad Max Saga;4.5;2024;Action,Adventure;Sci-Fi
+Mad Max: Fury Road;4.5;2015;Action,Adventure;Sci-Fi
+Seven;4;1995;Crime,Drama,Mystery
+Rise of the Planet of the Apes;3.5;2011;Action,Drama,Sci-Fi
+A Quiet Place: Day One;3;2024;Drama,Horror,Sci-Fi
+War for the Planet of the Apes;4;2017;Action,Adventure,Drama
+Longlegs;4;2024;Crime,Horror,Thriller
