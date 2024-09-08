@@ -320,3 +320,13 @@ Rise of the Planet of the Apes;3.5;2011;Action,Drama,Sci-Fi
 A Quiet Place: Day One;3;2024;Drama,Horror,Sci-Fi
 War for the Planet of the Apes;4;2017;Action,Adventure,Drama
 Longlegs;4;2024;Crime,Horror,Thriller
+Love Lies Bleeding;3.5;2024;Action,Romance,Thriller
+Keanu;3;2016;Action,Comedy,Crime
+Deadpool & Wolverine;2.5;2024;Action,Comedy,Sci-Fi
+Soft & Quiet;1;2022;Drama,Horror,Thriller
+Skincare;5;2024;Thriller
+Kingdom of the Planet of the Apes;3.5;Action,Adventure,Sci-Fi
+Alien: Romulus;4.5;2024;Horror,Sci-Fi,Thriller
+Didi;3.5;2024;Comedy,Drama
+The First Omen;2.5;2024;Horror
+Beetlejuice;3.5;1988;Comedy,Fantasy
