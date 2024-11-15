@@ -330,3 +330,10 @@ Alien: Romulus;4.5;2024;Horror,Sci-Fi,Thriller
 Didi;3.5;2024;Comedy,Drama
 The First Omen;2.5;2024;Horror
 Beetlejuice;3.5;1988;Comedy,Fantasy
+When Evil Lurks;3;2023;Horror
+The Substance;3.5;2024;Drama,Horror
+Joker: Folie à Deux;2.5;2024;Crime,Drama,Musical,Thriller
+A Most Wanted Man;3;2014;Crime,Drama,Thriller
+Psycho;4.5;1960;Horror,Mystery,Thriller
+Anora;3.5;2024;Comedy,Drama,Romance
+Heretic;3;2024;Horror,Thriller
