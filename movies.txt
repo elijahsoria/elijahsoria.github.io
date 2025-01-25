@@ -337,3 +337,12 @@ A Most Wanted Man;3;2014;Crime,Drama,Thriller
 Psycho;4.5;1960;Horror,Mystery,Thriller
 Anora;3.5;2024;Comedy,Drama,Romance
 Heretic;3;2024;Horror,Thriller
+Conclave;4;2024;Drama,Mystery,Thriller
+The Babadook;4;2014;Drama,Horror,Mystery
+Gladiator II;3;2024;Action,Adventure,Drama
+Flow;3.5;2024;Adventure,Animation,Fantasy,Family
+Carry-On;3;2024;Action,Crime,Drama
+Nosferatu;4.5;2024;Fantasy,Horror,Mystery
+Valley Girl;3;1983;Comedy,Romance
+Meet the Fockers;3;2024;Comedy,Romance
+A Different Man;3;2024;Comedy,Drama,Thriller
