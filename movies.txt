@@ -360,7 +360,7 @@ The Lord of the Rings: The War of the Rohirrim;3.5;2024;Action,Adventure,Animati
 Ratatouille;4.5;2007;Adventure,Animation,Comedy,Family,Fantasy
 Companion;3;2025;Sci-Fi,Thriller
 Shallow Hal;3.5;2001;Comedy,Drama,Fantasy,Romance
-LilO & Stitch;3.5;2002;Adventure,Animation,Comedy,Drama,Family
+Lilo & Stitch;3.5;2002;Adventure,Animation,Comedy,Drama,Family
 The Hunt;4;2012;Tragedy,Drama
 I Like Movies;3;2022;Comedy,Drama
 28 Years Later;4;2025;Horror,Thriller
