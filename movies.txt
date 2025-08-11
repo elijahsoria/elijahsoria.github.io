@@ -346,3 +346,28 @@ Nosferatu;4.5;2024;Fantasy,Horror,Mystery
 Valley Girl;3;1983;Comedy,Romance
 Meet the Fockers;3;2024;Comedy,Romance
 A Different Man;3;2024;Comedy,Drama,Thriller
+The Last Showgirl;3.5;2024;Drama
+Paddington in Peru;4;2024;Adventure,Comedy,Family,Mystery
+8 Mile;2.5;2002;Drama,Music
+The Big Year;3.5;2011;Comedy
+Mickey 17;3.5;2025;Adventure,Comedy,Fantasy,Sci-Fi
+Everest;2.5;2015;Adventure,Biography,Drama,Thriller
+The Jerk;4;1979;Comedy
+Sinners;4.5;2025;Action,Drama,Horror,Music,Thriller
+What About Bob?;3;1991;Comedy
+Warfare;4;2025;Action,Drama,War
+The Lord of the Rings: The War of the Rohirrim;3.5;2024;Action,Adventure,Animation
+Ratatouille;4.5;2007;Adventure,Animation,Comedy,Family,Fantasy
+Companion;3;2025;Sci-Fi,Thriller
+Shallow Hal;3.5;2001;Comedy,Drama,Fantasy,Romance
+LilO & Stitch;3.5;2002;Adventure,Animation,Comedy,Drama,Family
+The Hunt;4;2012;Tragedy,Drama
+I Like Movies;3;2022;Comedy,Drama
+28 Years Later;4;2025;Horror,Thriller
+28 Days Later;3.5;2002;Drama,Horror
+Superman;3.5;2025;Action,Adventure,Sci-Fi
+The Hobbit: An Unexpected Journey;4;2012;Adventure,Fantasy
+The Hobbit: The Desolation of Smaug;3.5;2013;Adventure,Fantasy
+The Hobbit: The Battle of the Five Armies;3.5;2014;Adventure,Fantasy
+Together;3.5;2025;Horror,Romance
+Weapons;4.5;2025;Horror,Mystery
