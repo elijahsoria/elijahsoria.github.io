@@ -371,3 +371,22 @@ The Hobbit: The Desolation of Smaug;3.5;2013;Adventure,Fantasy
 The Hobbit: The Battle of the Five Armies;3.5;2014;Adventure,Fantasy
 Together;3.5;2025;Horror,Romance
 Weapons;4.5;2025;Horror,Mystery
+Caught Stealing;4;2025;Action,Comedy,Crime,Thriller
+The Sitter;2.5;2011;Comedy
+The Black Phone;3.5;2021;Horror,Mystery,Thriller
+Bring Her Back;4;2025;Horror,Mystery
+Presence;3.5;2024;Drama,Horror,Thriller
+Grave Encounters;3;2011;Fantasy,Horror,Mystery,Thriller
+Predator: Badlands;4;2025;Action,Adventure,Sci-Fi,Thriller
+The Mist;2.5;2007;Horror,Sci-Fi,Thriller
+Eddington;2.5;2025;Comedy,Drama,Western
+One Battle After Another;4.5;2025;Action,Crime,Drama,Thriller
+The Monkey;3;2025;Horror
+Marty Supreme;4;2025;Drama,Sport
+Jay Kelly;3.5;2025;Comedy,Drama
+Ichi the Killer;2;2001;Action,Crime,Drama
+Titane;2.5;2021;Drama,Horror,Sci-Fi,Thriller
+No Other Choice;3.5;2025;Comedy,Crime,Drama,Thriller
+Wake Up Dead Man;3.5;2025;Comedy,Crime,Drama,Mystery,Thriller
+A Few Good Men;4;1992;Drama,Thriller
+The Plague;4.5;2025;Drama,Thriller
